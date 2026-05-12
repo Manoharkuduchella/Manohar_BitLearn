@@ -1,0 +1,17 @@
+11:39:24 **** Incremental Build of configuration Debug for project 16_SPI_DMA ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/16_SPI_DMA/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/16_SPI_DMA/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/16_SPI_DMA/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "16_SPI_DMA.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\manohar kuduchella\STM32CubeIDE\stm32l4_workspace\16_SPI_DMA\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="16_SPI_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 16_SPI_DMA.elf
+ 
+arm-none-eabi-size  16_SPI_DMA.elf 
+arm-none-eabi-objdump -h -S 16_SPI_DMA.elf  > "16_SPI_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   6844	     24	   1824	   8692	   21f4	16_SPI_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: 16_SPI_DMA.list
+ 
+
+11:39:25 Build Finished. 0 errors, 0 warnings. (took 935ms)
+

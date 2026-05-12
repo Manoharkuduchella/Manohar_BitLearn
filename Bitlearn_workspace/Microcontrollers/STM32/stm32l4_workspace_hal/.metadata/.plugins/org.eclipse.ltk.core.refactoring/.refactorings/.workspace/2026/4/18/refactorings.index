@@ -1,0 +1,5 @@
+1777283037803	Delete resource '3_RCC_Configuration'
+1777365695304	Delete resource '4_Timer_Timebase/Src/main.c'
+1777378274300	Delete resource '8_SPI_Polling/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.h'
+1777378277810	Delete resource '8_SPI_Polling/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.h'
+1777453584771	Delete resource '5_ADC_Continues_Conversion/Inc/BME280_STM32.h'

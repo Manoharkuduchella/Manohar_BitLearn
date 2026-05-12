@@ -1,0 +1,60 @@
+1) Microcontroller not entering main()
+If the MCU does not reach main(), the issue is usually in reset handling, startup code, or early initialization. Typical causes are bad vector table, wrong stack pointer, watchdog reset, clock failure, or a fault in static/global initialization.
+Example: If the linker places the vector table at the wrong address, the CPU may jump to an invalid reset handler instead of main().
+
+2) Works after reset, fails on power-on
+If it works on reset but not on power-on, the problem is often in power sequencing, brown-out, reset timing, or unstable clock/voltage during startup. Reset button press gives a clean reset, but power-on may have slow rising voltage or incomplete initialization.
+Example: A sensor MCU may boot only after reset because the 3.3 V rail takes too long to stabilize, so the oscillator starts incorrectly during power-up.
+
+3) Interrupt latency increases after a feature
+To analyze increased interrupt latency, compare execution time before and after the feature, inspect higher-priority ISR blocking, critical sections, disabled interrupts, and heavy processing in ISR context. Use tracing tools or toggle GPIO in ISR entry/exit to measure latency.
+Example: If a new logging feature disables interrupts for 200 microseconds, a timer interrupt may be delayed and appear to have worse latency.
+
+4) Servo motor vibrates continuously
+Continuous vibration in a PWM-driven servo can happen due to wrong PWM frequency, incorrect pulse width, noisy supply, poor grounding, unstable feedback, or control loop oscillation. The servo may be receiving pulses outside its valid range.
+Example: A hobby servo expecting 50 Hz PWM with 1–2 ms pulse width may vibrate if you drive it with 1 kHz PWM or unstable duty cycles.
+
+5) Deadlock in RTOS
+A deadlock occurs when two or more tasks wait forever for resources held by each other. Detect it using task states, stack traces, watchdogs, mutex timing logs, and RTOS debug tools. Avoid it by using lock ordering, timeouts, priority inheritance, and minimizing nested locks.
+Example: Task A locks Mutex 1 and waits for Mutex 2, while Task B locks Mutex 2 and waits for Mutex 1.
+
+6) What happens during context switching
+During context switching, the RTOS saves the current task’s CPU context, such as registers, program counter, stack pointer, and status registers, into its task control block or stack. Then it restores the next task’s saved context and resumes execution.
+Example: If Task A is preempted while using R0–R12 and stack pointer, the RTOS stores those values before switching to Task B.
+
+7) Synchronous vs asynchronous communication
+Synchronous communication means sender and receiver are coordinated in time, often with a shared clock or immediate response expectation. Asynchronous communication means data is sent independently, and the receiver handles it later using buffers, interrupts, or callbacks.
+Example: SPI is synchronous because it uses a clock line, while UART is asynchronous because it does not share a clock.
+
+8) Why debouncing is needed
+Debouncing is needed because mechanical switches produce multiple rapid transitions when pressed or released, instead of a single clean transition. Without debouncing, one press may be counted multiple times.
+Example: A button press may generate 5–10 false edges in 10 ms, so the software waits 20 ms before confirming the state.
+
+9) Priority inversion
+Priority inversion happens when a high-priority task waits for a resource held by a low-priority task, while a medium-priority task prevents the low-priority task from running. This delays the high-priority task unexpectedly.
+Example: Task H waits for a mutex held by Task L, but Task M keeps running, so Task L cannot release the mutex quickly. Priority inheritance is used to fix this.
+
+10) Why strcpy() is dangerous
+strcpy() is dangerous because it does not check the destination buffer size, so it can overflow memory if the source string is too long. This can cause crashes, data corruption, or security issues.
+Example: If char buf[8]; strcpy(buf, "embedded systems");, the string overflows buf. Safer alternatives include strncpy(), snprintf(), or bounded copy functions with explicit size checks.
+
+Short interview-friendly version
+main() not reached: startup code, vector table, stack, watchdog, or clock issue.
+
+Reset works but power-on fails: power sequencing or brown-out problem.
+
+Interrupt latency: measure ISR time, check disabled interrupts and long critical sections.
+
+Servo vibration: wrong PWM, bad pulse width, unstable power, or control oscillation.
+
+RTOS deadlock: circular wait on resources; use timeouts and lock ordering.
+
+Context switch: save current task context, restore next task context.
+
+Sync vs async: sync uses coordinated timing; async uses independent events/messages.
+
+Debouncing: remove false switch transitions from mechanical bounce.
+
+Priority inversion: high-priority task blocked by low-priority task; fix with priority inheritance.
+
+strcpy() danger: no bounds checking, can overflow buffer.

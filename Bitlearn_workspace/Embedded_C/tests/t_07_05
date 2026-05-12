@@ -1,0 +1,22 @@
+1)
+Target-Specific Code GenerationThe compiler determines the correct byte order based on the target build architecture.
+Architecture Mapping: For well-known architectures, the order is fixed (e.g., x86 is always little-endian).
+Compiler Flags: For bi-endian architectures like ARM, compilers use flags like -mlittle-endian or -mbig-endian to decide which order to use for data storage and instruction generation.
+Internal Consistency: The compiler ensures that an operation like a bitwise shift works identically across platforms, even if the underlying physical byte arrangement in memory is different.
+Memory Layout vs. RegistersEndianness primarily applies when data is moved between memory (which is byte-addressed) and registers (which treat the data as a single atomic unit).
+Big-Endian: The compiler generates instructions to store the Most Significant Byte (MSB) at the lowest memory address.
+Little-Endian: The compiler generates instructions to store the Least Significant Byte (LSB) at the lowest memory address
+
+2)
+The compiler computes the effective address during pointer arithmetic by multiplying the integer offset by the sizeof the underlying data type, then adding this result to the base pointer address. 
+Internally, this is formulaic: Effective Address= Base Address + Index * sizeof(Type)
+Type Scaling: The compiler uses the pointer's type to determine the scaling factor. Incrementing a pointer to int adds sizeof(int) (typically 4 bytes), while char adds sizeof(char) (1 byte)
+
+3)
+The Internal Workflow of mallocSize 
+Rounding and Alignment: The allocator first rounds up your requested byte count to the nearest "alignment boundary" (typically 4 or 8 bytes) to ensure the CPU can access the data efficiently.
+Adding Metadata Overhead: It adds a small amount of extra space (a header) to the request. This header usually stores:The total size of the block.A flag indicating if it's currently "allocated" or "free."Pointers to the next/previous block in a free list.
+Searching the Free List: The allocator scans its internal database of unused memory chunks, known as the free list, using a placement strategy:First-Fit: Returns the first block it finds that is large enough.Best-Fit: Scans the entire list to find the block closest to the requested size to minimize waste.
+Splitting a Block: If the found block is significantly larger than needed, the allocator splits it. It carves out the requested portion for you and creates a new, smaller header for the remaining fragment, which stays in the free list.
+Expanding the Heap (System Dependent):RTOS/Bare Metal: If no suitable block is found, the system typically returns NULL immediately because the heap size is fixed at startup.Linux/POSIX Embedded: It may trigger a system call like sbrk() or brk() to move the "program break" and request more pages from the kernel.
+Returning the Pointer: Once a block is secured, the allocator returns a pointer to the payload area—the memory just after the internal header metadata

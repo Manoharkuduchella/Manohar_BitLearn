@@ -1,0 +1,19 @@
+
+#include "stm32l476xx.h"
+
+/*
+ * PA5 -> SPI1_SCK
+ * PA6 -> SPI1_MISO
+ * PA7 -> SPI1_MOSI
+ * PB6 -> SPI1_CS
+ *
+ * Alternate functionality: AF5
+ * */
+
+
+int main()
+{
+	return 0;
+}
+
+

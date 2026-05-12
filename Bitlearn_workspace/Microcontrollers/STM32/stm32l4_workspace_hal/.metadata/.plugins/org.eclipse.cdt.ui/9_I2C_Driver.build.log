@@ -1,0 +1,10 @@
+12:09:27 **** Incremental Build of configuration Debug for project 9_I2C_Driver ****
+make -j12 all 
+arm-none-eabi-size  9_I2C_Driver.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7792	     12	   1724	   9528	   2538	9_I2C_Driver.elf
+Finished building: default.size.stdout
+ 
+
+12:09:27 Build Finished. 0 errors, 0 warnings. (took 520ms)
+

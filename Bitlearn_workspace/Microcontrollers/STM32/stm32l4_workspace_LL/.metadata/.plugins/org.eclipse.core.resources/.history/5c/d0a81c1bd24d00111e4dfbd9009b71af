@@ -1,0 +1,26 @@
+
+#include "stm32l476xx.h"
+
+/*
+ * PA5 -> SPI1_SCK
+ * PA6 -> SPI1_MISO
+ * PA7 -> SPI1_MOSI
+ * PB6 -> SPI1_CS
+ *
+ * Alternate functionality: AF5
+ * */
+
+void SPI_GPIOInits(void)
+{
+	GPIO_Handle_t SPIPins;
+	SPIPins.pGPIOx = GPIOA;
+}
+
+
+int main()
+{
+	SPI_GPIOInits();
+	return 0;
+}
+
+

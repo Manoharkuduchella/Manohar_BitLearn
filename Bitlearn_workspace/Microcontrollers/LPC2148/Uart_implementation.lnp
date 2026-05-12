@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\uart_rx_tx.o"
+--strict --scatter ".\Uart_implementation.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Uart_implementation.map" -o .\Uart_implementation.axf

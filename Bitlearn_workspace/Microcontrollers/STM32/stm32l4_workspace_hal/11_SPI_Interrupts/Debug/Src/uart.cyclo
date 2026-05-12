@@ -1,0 +1,2 @@
+../Src/uart.c:8:5:__io_putchar	1
+../Src/uart.c:15:6:uart2_init	1

@@ -1,0 +1,198 @@
+15:03:15 **** Incremental Build of configuration Debug for project 5_ADC_Continues_Conversion ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/adc.d" -MT"Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/adc.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/uart.d" -MT"Src/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+../Src/adc.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Src/main.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Src/uart.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c:36:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   36 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:34: Src/adc.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:34: Src/main.o] Error 1
+make: *** [Src/subdir.mk:34: Src/uart.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c:295:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  295 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c:33:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   33 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:104:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  104 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c:91:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   91 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:50:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   50 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:86:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   86 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:03:48 **** Incremental Build of configuration Debug for project 5_ADC_Continues_Conversion ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/adc.d" -MT"Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/adc.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/uart.d" -MT"Src/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+../Src/main.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Src/adc.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+../Src/uart.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+make: *** [Src/subdir.mk:34: Src/adc.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:34: Src/main.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c:36:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   36 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:34: Src/uart.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c:295:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  295 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c:33:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   33 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c:91:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   91 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:104:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  104 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:50:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   50 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:86:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   86 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:88:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   88 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+15:04:45 **** Incremental Build of configuration Debug for project 5_ADC_Continues_Conversion ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/adc.d" -MT"Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/adc.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/uart.d" -MT"Src/uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+../Src/adc.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Src/main.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Inc -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/CMSIS/Include" -I"C:/Users/manohar kuduchella/STM32CubeIDE/stm32l4_workspace/5_ADC_Continues_Conversion/Drivers/STM32L4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+make: *** [Src/subdir.mk:34: Src/adc.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:34: Src/main.o] Error 1
+../Src/uart.c:1:10: fatal error: stm32l4xx_hal.h: No such file or directory
+    1 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c:36:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   36 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:34: Src/uart.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c:295:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  295 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c:33:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   33 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:104:10: fatal error: stm32l4xx_hal.h: No such file or directory
+  104 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o] Error 1
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c:91:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   91 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c:50:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   50 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:86:10: fatal error: stm32l4xx_hal.h: No such file or directory
+   86 | #include "stm32l4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o] Error 1
+make: *** [Drivers/STM32L4xx_HAL_Driver/Src/subdir.mk:76: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.

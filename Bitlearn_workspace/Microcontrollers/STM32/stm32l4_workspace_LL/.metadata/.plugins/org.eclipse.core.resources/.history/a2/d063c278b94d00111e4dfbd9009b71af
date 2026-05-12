@@ -1,0 +1,138 @@
+
+#include "stm32l476xx_spi_driver.h"
+
+
+/*
+ * Peripheral Clock setup
+ * */
+
+void SPI_PeriClockControl(SPI_RegDef_t *pSPIx,uint8_t EnorDi)
+{
+	if(EnorDi == ENABLE)
+	{
+			if(pGPIOx == GPIOA)
+			{
+				GPIOA_PCLK_EN();
+
+			}else if(pGPIOx == GPIOB)
+			{
+				GPIOB_PCLK_EN();
+
+			}else if(pGPIOx == GPIOC)
+			{
+				GPIOC_PCLK_EN();
+
+			}else if(pGPIOx == GPIOD)
+			{
+					GPIOD_PCLK_EN();
+
+			}else if(pGPIOx == GPIOE)
+			{
+					GPIOE_PCLK_EN();
+
+			}else if(pGPIOx == GPIOF)
+			{
+				GPIOF_PCLK_EN();
+
+			}else if(pGPIOx == GPIOG)
+			{
+					GPIOG_PCLK_EN();
+
+			}else if(pGPIOx == GPIOH)
+			{
+				GPIOH_PCLK_EN();
+
+			}else if(pGPIOx == GPIOI)
+			{
+				GPIOI_PCLK_EN();
+			}
+		}else
+		{
+			if(pGPIOx == GPIOA)
+			{
+				GPIOA_PCLK_DI();
+
+			}else if(pGPIOx == GPIOB)
+			{
+				GPIOB_PCLK_DI();
+
+			}else if(pGPIOx == GPIOC)
+			{
+				GPIOC_PCLK_DI();
+
+			}else if(pGPIOx == GPIOD)
+			{
+				GPIOD_PCLK_DI();
+
+			}else if(pGPIOx == GPIOE)
+			{
+				GPIOE_PCLK_DI();
+
+			}else if(pGPIOx == GPIOF)
+			{
+				GPIOF_PCLK_DI();
+
+			}else if(pGPIOx == GPIOG)
+			{
+				GPIOG_PCLK_DI();
+
+			}else if(pGPIOx == GPIOH)
+			{
+				GPIOH_PCLK_DI();
+
+			}else if(pGPIOx == GPIOI)
+			{
+				GPIOI_PCLK_DI();
+			}
+		}
+
+}
+
+
+
+/*
+ * Init and De-init
+ */
+
+void SPI_Init(SPI_Handle_t *pSPIHandle)
+{
+
+}
+
+void SPI_DeInit(SPI_RegDef_t *pSPIx)
+{
+
+}
+
+
+/*
+ * Data Send and Receive
+ * */
+
+void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *pTxBuffer, uint32_t len)
+{
+
+}
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *pRxBuffer, uint32_t len)
+{
+
+}
+
+
+/*
+ * IRQ Configuration and ISR handling
+ * */
+
+void SPI_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
+{
+
+}
+void SPI_IRQPriorityConfig(  uint8_t IRQNumber,uint8_t IRQPriority)
+{
+
+}
+void SPI_IRQHandling(SPI_Handle_t *pSPIHandle)
+{
+
+}
+

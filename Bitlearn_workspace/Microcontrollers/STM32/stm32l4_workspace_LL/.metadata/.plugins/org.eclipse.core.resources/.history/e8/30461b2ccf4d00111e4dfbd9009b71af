@@ -1,0 +1,165 @@
+
+#include "stm32l476xx_spi_driver.h"
+
+
+/*
+ * Peripheral Clock setup
+ * */
+
+void SPI_PeriClockControl(SPI_RegDef_t *pSPIx,uint8_t EnorDi)
+{
+	if(EnorDi == ENABLE)
+	{
+			if(pSPIx == SPI1)
+			{
+				SPI1_PCLK_EN();
+
+			}else if(pSPIx == SPI2)
+			{
+				SPI2_PCLK_EN();
+
+			}else if(pSPIx == SPI3)
+			{
+				SPI3_PCLK_EN();
+			}
+	}else
+	{
+		if(pSPIx == SPI1)
+		{
+			SPI1_PCLK_DI();
+
+		}else if(pSPIx == SPI2)
+		{
+			SPI2_PCLK_DI();
+
+		}else if(pSPIx == SPI3)
+		{
+			SPI3_PCLK_DI();
+		}
+		}
+
+}
+
+
+
+/*
+ * Init and De-init
+ */
+
+void SPI_Init(SPI_Handle_t *pSPIHandle)
+{
+	//config SPI_CR1 reg
+	uint32_t tempreg = 0;
+
+	//config the deive mode
+	tempreg |= pSPIHandle->SPIConfig.SPI_DeviceMode << 2;
+
+	//config BUS
+	if(pSPIHandle->SPIConfig.SPI_BusConfig == SPI_BUS_CONFIG_FD)
+	{
+		//bidi should be cleared
+		tempreg &= ~( 1 << 15);
+	}else if(pSPIHandle->SPIConfig.SPI_BusConfig == SPI_BUS_CONFIG_HD)
+	{
+		//bidi mode should be set
+		tempreg |= (1 << 15);
+	}else if(pSPIHandle->SPIConfig.SPI_BusConfig == SPI_BUS_CONFIG_SIMPLEX_RXONLY)
+	{
+		//bidi mode should be cleared
+		tempreg &= ~(1 << 15);
+		//rxonly bit must be set
+		tempreg |= (1 << 10);
+	}
+
+
+	//config spi scl speed
+	tempreg |= pSPIHandle->SPIConfig.SPI_SclkSpeed << SPI_CR1_BR;
+
+	//config data frame
+	pSPIHandle->pSPIx->CR2 &=  ~(0xF << SPI_CR2_DFF);
+	pSPIHandle->pSPIx->CR2 |=  pSPIHandle->SPIConfig.SPI_DFF << SPI_CR2_DFF;
+
+	//config CPOL
+	tempreg |= pSPIHandle->SPIConfig.SPI_CPOL << SPI_CR1_CPOL;
+
+	//config CPHA
+	tempreg |= pSPIHandle->SPIConfig.SPI_CPHA << SPI_CR1_CPHA;
+
+	pSPIHandle->pSPIx->CR1 = tempreg;
+
+
+}
+
+void SPI_DeInit(SPI_RegDef_t *pSPIx)
+{
+	if(pSPIx == SPI1)
+	{
+		SPI1_REG_RESET();
+
+	}else if(pSPIx == SPI2)
+	{
+		SPI2_REG_RESET();
+
+	}else if(pSPIx == SPI3)
+	{
+		SPI3_REG_RESET();
+
+	}
+}
+
+uint8_t SPI_GetFlagStatus(SPI_RegDef_t *pSPIx, uint32_t FlagName)
+{
+	if(pSPIx->SR & FlagName)
+	{
+		return FLAG_SET;
+	}
+	return FLAG_RESET;
+}
+
+
+
+/*
+ * Data Send and Receive
+ * */
+
+void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *pTxBuffer, uint32_t len)
+{
+	while(len > 0)
+	{
+		//wait unitl TXE is set
+		while(SPI_GetFlagStatus(pSPIx,SPI_TXE_FLAG) == FLAG_RESET);
+		//while(!( pSPIx->SR & (1<<1)));
+
+		//check the Data Size
+		if(((pSPIx->CR2 >> SPI_CR2_DFF) & 0xF) > 8 )
+		{
+			pSPIx->DR = (*(uint16_t*)pTxBuffer);
+			len--;
+			len--;
+		}
+	}
+
+}
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *pRxBuffer, uint32_t len)
+{
+
+}
+
+
+/*
+ * IRQ Configuration and ISR handling
+ * */
+
+void SPI_IRQInterruptConfig(uint8_t IRQNumber, uint8_t EnorDi)
+{
+
+}
+void SPI_IRQPriorityConfig(  uint8_t IRQNumber,uint8_t IRQPriority)
+{
+
+}
+void SPI_IRQHandling(SPI_Handle_t *pSPIHandle)
+{
+
+}
+

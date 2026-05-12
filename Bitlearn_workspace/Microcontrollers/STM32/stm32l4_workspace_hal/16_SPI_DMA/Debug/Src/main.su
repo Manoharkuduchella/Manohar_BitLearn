@@ -1,0 +1,5 @@
+../Src/main.c:27:5:main	8	static
+../Src/main.c:40:6:SysTick_Handler	8	static
+../Src/main.c:45:6:spi1_init	40	static
+../Src/main.c:128:6:DMA1_CH6_IRQHandler	8	static
+../Src/main.c:133:6:DMA1_CH5_IRQHandler	8	static

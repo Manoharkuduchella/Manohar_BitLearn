@@ -1,0 +1,50 @@
+#include "stm32l4xx_hal.h"
+#include "tim.h"
+
+//Configure timer to timeout every second
+//Meaning 1hz
+
+//TIM3 <-> APB1 bus
+/*for system default clk 16 000 000 */
+//system default freq = 16 000 000
+//Default PCK1 freq = 16 000 000
+//Default PCK2 freq = 16 000 000
+//Timer prescaler : 1600 => 16 000 000 / 1600  = 10,000(10Kh)
+//Timer period (Auto reload value) = 10,000
+
+
+/*for system default clk 4 000 000 */
+//system default freq = 4 000 000
+//Default PCK1 freq = 4 000 000
+//Default PCK2 freq = 4 000 000
+//Timer prescaler : 400 => 4 000 000 / 400  = 10,000(10Kh)
+//Timer period (Auto reload value) = 10,000
+
+TIM_HandleTypeDef TimHandle;
+
+void tim_timebase_init(void)
+{
+
+	_TIMx_CLK_ENABLE;
+
+	TimHandle.Instance = TIMx;
+	TimHandle.Init.Prescaler = 400-1; //4 000 000 / 400  = 10000
+	TimHandle.Init.Period = 10000-1; //10000 / 10000 = 1hz
+	TimHandle.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;//0;
+	TimHandle.Init.CounterMode = TIM_COUNTERMODE_UP;
+	TimHandle.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+
+	HAL_TIM_Base_Init(&TimHandle);
+
+	HAL_NVIC_SetPriority(TIMx_IRQn, 0, 0);
+	HAL_NVIC_EnableIRQ(TIMx_IRQn);
+
+	HAL_TIM_Base_Start_IT(&TimHandle);
+
+}
+
+
+void TIMx_IRQHandler()
+{
+	HAL_TIM_IRQHandler(&TimHandle);
+}

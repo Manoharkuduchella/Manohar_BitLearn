@@ -1,0 +1,10 @@
+11:18:14 **** Incremental Build of configuration Debug for project 17_Real_Time_Clock ****
+make -j12 all 
+arm-none-eabi-size  17_Real_Time_Clock.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18572	    104	   2112	  20788	   5134	17_Real_Time_Clock.elf
+Finished building: default.size.stdout
+ 
+
+11:18:14 Build Finished. 0 errors, 0 warnings. (took 273ms)
+

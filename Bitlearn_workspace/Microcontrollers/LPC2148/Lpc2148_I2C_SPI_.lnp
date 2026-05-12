@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lpc_test.o"
+--strict --scatter ".\Lpc2148_I2C_SPI_.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lpc2148_I2C_SPI_.map" -o .\Lpc2148_I2C_SPI_.axf

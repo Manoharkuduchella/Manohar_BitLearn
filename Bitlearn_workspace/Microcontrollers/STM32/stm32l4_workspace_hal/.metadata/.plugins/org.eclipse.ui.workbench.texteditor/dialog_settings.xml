@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="Instance"/>
+		<item value="ADC"/>
+		<item value="I2C_DUTYCYCLE_2"/>
+		<item value="DutyCycle"/>
+		<item value="clock"/>
+		<item value="Clock"/>
+		<item value="GPIOA"/>
+		<item value=" ADC1"/>
+		<item value="HAL_init"/>
+	</list>
+</section>

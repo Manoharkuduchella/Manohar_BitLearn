@@ -1,0 +1,10 @@
+19:08:06 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+
+19:08:07 Build Finished. 0 errors, 0 warnings. (took 425ms)
+

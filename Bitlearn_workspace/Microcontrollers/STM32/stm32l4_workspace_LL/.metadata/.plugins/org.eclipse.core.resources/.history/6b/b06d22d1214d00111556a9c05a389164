@@ -1,0 +1,336 @@
+/*
+ * stm32l4xx.h
+ *
+ *  Created on: May 7, 2026
+ *      Author: manohar kuduchella
+ */
+
+#ifndef INC_STM32L476XX_H_
+#define INC_STM32L476XX_H_
+
+#include <stdint.h>
+
+#define __vo volatile
+#define GPIO_BASEADDR_TO_CODE(x)	(x == GPIOA)?0:\
+									(x == GPIOB)?1:\
+									(x == GPIOC)?1:\
+									(x == GPIOD)?1:\
+									(x == GPIOE)?1:\
+									(x == GPIOF)?1:\
+									(x == GPIOG)?1:\
+									(x == GPIOH)?1:\
+									(x == GPIOI)?1:0
+
+
+
+/*
+ * Base addresses of flash and SRAM Memories
+ */
+#define FLASH_BASEADDR		0x08000000UL
+#define SRAM1_BASEADDR		0x20000000UL
+#define SRAM2_BASEADDR		0x10000000UL
+#define ROM_BASEADDR		0x1FFF0000UL
+#define SRAM 				SRAM1_BASEADDR
+
+#define PERIPH_BASEADDR 		0x40000000UL
+#define APB1PERIPH_BASEADDR		PERIPH_BASEADDR
+#define APB2PERIPH_BASEADDR		0x40010000UL
+#define AHB1PERIPH_BASEADDR 	0x40020000UL
+#define AHB2PERIPH_BASEADDR 	0x48000000UL
+
+/*
+ * Base addresses of peripherals which are hanging on AHB2 bus
+ * TODO: complete for all peripherals
+ * */
+
+#define GPIOA_BASEADDR			(AHB2PERIPH_BASEADDR + 0x0000UL)
+#define GPIOB_BASEADDR			(AHB2PERIPH_BASEADDR + 0x0400UL)
+#define GPIOC_BASEADDR			(AHB2PERIPH_BASEADDR + 0x0800UL)
+#define GPIOD_BASEADDR			(AHB2PERIPH_BASEADDR + 0x0C00UL)
+#define GPIOE_BASEADDR			(AHB2PERIPH_BASEADDR + 0x1000UL)
+#define GPIOF_BASEADDR			(AHB2PERIPH_BASEADDR + 0x1400UL)
+#define GPIOG_BASEADDR			(AHB2PERIPH_BASEADDR + 0x1800UL)
+#define GPIOH_BASEADDR			(AHB2PERIPH_BASEADDR + 0x1C00UL)
+#define GPIOI_BASEADDR			(AHB2PERIPH_BASEADDR + 0x2000UL)
+
+/*
+ * Base addresses of peripherals which are hanging on AHB1 bus
+ * TODO: complete for all peripherals
+ * */
+
+#define RCC_BASEADDR 			(AHB1PERIPH_BASEADDR + 0x1000UL)
+
+/*
+ * Base addresses of peripherals which are hanging on APB1 bus
+ * TODO: complete for all other peripherals
+*/
+
+#define I2C1_BASEADDR 			(APB1PERIPH_BASEADDR + 0x5400UL)
+#define I2C2_BASEADDR			(APB1PERIPH_BASEADDR + 0x5800UL)
+#define I2C3_BASEADDR			(APB1PERIPH_BASEADDR + 0x5C00UL)
+
+#define SPI2_BASEADDR			(APB1PERIPH_BASEADDR + 0x3800UL)
+#define SPI3_BASEADDR			(APB1PERIPH_BASEADDR + 0x3C00UL)
+
+#define USART2_BASEADDR			(APB1PERIPH_BASEADDR + 0x4400UL)
+#define USART3_BASEADDR			(APB1PERIPH_BASEADDR + 0x4800UL)
+
+#define UART4_BASEADDR			(APB1PERIPH_BASEADDR + 0x4C00UL)
+#define UART5_BASEADDR			(APB1PERIPH_BASEADDR + 0x5000UL)
+
+
+/*
+ *
+ * Base addresses of peripherals which are hanging on APB2 bus
+ * TODO: complete for all other peripherals
+*/
+#define EXTI_BASEADDR			(APB2PERIPH_BASEADDR + 0x0400UL)
+#define SPI1_BASEADDR			(APB2PERIPH_BASEADDR + 0x3000UL)
+#define USART1_BASEADDR			(APB2PERIPH_BASEADDR + 0x3800UL)
+#define SYSCFG_BASEADDR			(APB2PERIPH_BASEADDR + 0x0000UL)
+
+/*
+ * Peripheral register definition structures of STM32L476XX
+ *
+ * */
+
+typedef struct
+{
+	__vo uint32_t MODER;
+	__vo uint32_t OTYPER;
+	__vo uint32_t OSPEEDR;
+	__vo uint32_t PUPDR;
+	__vo uint32_t IDR;
+	__vo uint32_t ODR;
+	__vo uint32_t BSRR;
+	__vo uint32_t LCKR;
+	__vo uint32_t AFR[2];    /*AFR[0] : GPIO alternate function low register, AF[1] : GPIO alternate function High register*/
+	__vo uint32_t BRR;
+	__vo uint32_t ASCR;
+
+}GPIO_RegDef_t;
+
+/*
+ * Peripheral register definition structure for RCC
+ */
+typedef struct
+{
+	__vo uint32_t CR;
+	__vo uint32_t ICSCR;
+	__vo uint32_t CFGR;
+	__vo uint32_t PLLCFGR;
+	__vo uint32_t PLLSAI1CFGR;
+	__vo uint32_t PLLSAI2CFGR;
+	__vo uint32_t CIER;
+	__vo uint32_t CIFR;
+	__vo uint32_t CICR;
+
+	__vo uint32_t RESERVED0;
+
+	__vo uint32_t AHB1RSTR;
+	__vo uint32_t AHB2RSTR;
+	__vo uint32_t AHB3RSTR;
+
+	__vo uint32_t RESERVED1;
+
+	__vo uint32_t APB1RSTR1;
+	__vo uint32_t APB1RSTR2;
+	__vo uint32_t APB2RSTR;
+
+	__vo uint32_t RESERVED2;
+
+	__vo uint32_t AHB1ENR;
+	__vo uint32_t AHB2ENR;
+	__vo uint32_t AHB3ENR;
+
+	__vo uint32_t RESERVED3;
+
+	__vo uint32_t APB1ENR1;
+	__vo uint32_t APB1ENR2;
+	__vo uint32_t APB2ENR;
+
+	__vo uint32_t RESERVED4;
+
+	__vo uint32_t AHB1SMENR;
+	__vo uint32_t AHB2SMENR;
+	__vo uint32_t AHB3SMENR;
+
+	__vo uint32_t RESERVED5;
+
+	__vo uint32_t APB1SMENR1;
+	__vo uint32_t APB1SMENR2;
+	__vo uint32_t APB2SMENR;
+
+	__vo uint32_t RESERVED6;
+
+	__vo uint32_t CCIPR;
+
+	__vo uint32_t RESERVED7;
+
+	__vo uint32_t BDCR;
+	__vo uint32_t CSR;
+	__vo uint32_t CRRCR;
+	__vo uint32_t CCIPR2;
+
+}RCC_RegDef_t;
+
+
+
+/*
+ * Peripheral register definition structure for EXTI
+ */
+
+typedef struct
+{
+	__vo uint32_t IMR;
+	__vo uint32_t EMR;
+	__vo uint32_t RTSR;
+	__vo uint32_t FTSR;
+	__vo uint32_t SWIER;
+	__vo uint32_t PR;
+}EXTI_RegDef_t;
+
+/*
+ * Peripheral register definition structure for EXTI
+ */
+
+typedef struct
+{
+	__vo uint32_t MEMRMP;
+	__vo uint32_t CFGR;
+	__vo uint32_t EXTICR[4];
+	__vo uint32_t SCSR;
+	__vo uint32_t Reserverd0;
+	__vo uint32_t SWPR;
+	__vo uint32_t SKR;
+}SYSCFG_RegDef_t;
+
+typedef struct {
+	__vo uint32_t IMR;
+	__vo uint32_t EMR;
+	__vo uint32_t RTSR;
+	__vo uint32_t FTSR;
+	__vo uint32_t SWIER;
+	__vo uint32_t PR;
+} EXTI_RegDef_t;
+
+
+/*
+ * Peripheral definition (Peripheral base address typecasted  to xxx_RegDef_t)
+ */
+#define GPIOA 			((GPIO_RegDef_t*)GPIOA_BASEADDR)
+#define GPIOB 			((GPIO_RegDef_t*)GPIOB_BASEADDR)
+#define GPIOC 			((GPIO_RegDef_t*)GPIOC_BASEADDR)
+#define GPIOD 			((GPIO_RegDef_t*)GPIOD_BASEADDR)
+#define GPIOE 			((GPIO_RegDef_t*)GPIOE_BASEADDR)
+#define GPIOF 			((GPIO_RegDef_t*)GPIOF_BASEADDR)
+#define GPIOG 			((GPIO_RegDef_t*)GPIOG_BASEADDR)
+#define GPIOH 			((GPIO_RegDef_t*)GPIOH_BASEADDR)
+#define GPIOI 			((GPIO_RegDef_t*)GPIOI_BASEADDR)
+
+
+#define RCC				((RCC_RegDef_t*)RCC_BASEADDR)
+
+#define EXTI 			((EXTI_RegDef_t*)EXTI_BASEADDR)
+
+#define SYSCFG          ((SYSCFG_RegDef_t*)SYSCFG_BASEADDR)
+/*
+ * Clock Enable Macros for GPIOx peripherals
+ * */
+
+#define GPIOA_PCLK_EN()		(RCC->AHB2ENR |= (1<<0))
+#define GPIOB_PCLK_EN()		(RCC->AHB2ENR |= (1<<1))
+#define GPIOC_PCLK_EN()		(RCC->AHB2ENR |= (1<<2))
+#define GPIOD_PCLK_EN()		(RCC->AHB2ENR |= (1<<3))
+#define GPIOE_PCLK_EN()		(RCC->AHB2ENR |= (1<<4))
+#define GPIOF_PCLK_EN()		(RCC->AHB2ENR |= (1<<5))
+#define GPIOG_PCLK_EN()		(RCC->AHB2ENR |= (1<<6))
+#define GPIOH_PCLK_EN()		(RCC->AHB2ENR |= (1<<7))
+#define GPIOI_PCLK_EN()		(RCC->AHB2ENR |= (1<<8))
+
+/*
+ * Clock Enable Macros for I2Cx peripherals
+ * */
+
+#define I2C1_PCLK_EN()		(RCC->APB1ENR1 |= (1<<21))
+#define I2C2_PCLK_EN()		(RCC->APB1ENR1 |= (1<<22))
+#define I2C3_PCLK_EN()		(RCC->APB1ENR1 |= (1<<23))
+
+/*
+ * Clock Enable Macros for SPIx peripherals
+ * */
+#define SPI1_PCLK_EN()		(RCC->APB2ENR |= (1<<12))
+#define SPI2_PCLK_EN()		(RCC->APB1ENR1 |= (1<<14))
+#define SPI3_PCLK_EN()		(RCC->APB1ENR1 |= (1<<15))
+/*
+ * Clock Enable Macros for USARTx peripherals
+ * */
+
+#define USART2_PCLK_EN()		(RCC->APB1ENR1 |= (1<<17))
+#define USART3_PCLK_EN()		(RCC->APB1ENR1 |= (1<<18))
+
+/*
+ * Clock Enable Macros for SYSCFG peripherals
+ * */
+
+#define SYSCFG_PCLK_EN()		(RCC->APB2ENR |= (1<<0))
+
+/*
+ * Clock Disable Macros for GPIOx peripherals
+ * */
+
+#define GPIOA_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<0))
+#define GPIOB_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<1))
+#define GPIOC_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<2))
+#define GPIOD_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<3))
+#define GPIOE_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<4))
+#define GPIOF_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<5))
+#define GPIOG_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<6))
+#define GPIOH_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<7))
+#define GPIOI_PCLK_DI()		(RCC->AHB2ENR &= ~(1<<8))
+
+/*
+ * Clock Disable Macros for I2Cx peripherals
+ * */
+
+/*
+ * Clock Disable Macros for SPIx peripherals
+ * */
+
+/*
+ * Clock Disable Macros for USARTx peripherals
+ * */
+
+/*
+ * Clock Disable Macros for SYSCFG peripherals
+ * */
+
+/*
+ * Macros to reset GPIOx peripherals
+ * */
+#define GPIOA_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<0)); (RCC->AHB2RSTR &= ~(1<<0)); }while(0)
+#define GPIOB_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<1)); (RCC->AHB2RSTR &= ~(1<<1)); }while(0)
+#define GPIOC_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<2)); (RCC->AHB2RSTR &= ~(1<<2)); }while(0)
+#define GPIOD_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<3)); (RCC->AHB2RSTR &= ~(1<<3)); }while(0)
+#define GPIOE_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<4)); (RCC->AHB2RSTR &= ~(1<<4)); }while(0)
+#define GPIOF_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<5)); (RCC->AHB2RSTR &= ~(1<<5)); }while(0)
+#define GPIOG_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<6)); (RCC->AHB2RSTR &= ~(1<<6)); }while(0)
+#define GPIOH_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<7)); (RCC->AHB2RSTR &= ~(1<<7)); }while(0)
+#define GPIOI_REG_RESET()	do { (RCC->AHB2RSTR |= (1<<8)); (RCC->AHB2RSTR &= ~(1<<8)); }while(0)
+
+
+
+
+/*
+ * Helper macros
+ * */
+
+#define ENABLE 			1
+#define DISABLE 		0
+#define SET 			ENABLE
+#define RESET 			DISABLE
+
+#define GPIO_PIN_SET 	SET
+#define GPIO_PIN_RESET 	RESET
+
+#endif /* INC_STM32L476XX_H_ */

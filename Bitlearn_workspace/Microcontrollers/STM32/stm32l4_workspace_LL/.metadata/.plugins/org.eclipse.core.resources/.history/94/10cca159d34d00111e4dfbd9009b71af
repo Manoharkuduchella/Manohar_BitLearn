@@ -1,0 +1,48 @@
+
+#include "stm32l476xx.h"
+
+/*
+ * PA5 -> SPI1_SCK
+ * PA6 -> SPI1_MISO
+ * PA7 -> SPI1_MOSI
+ * PA4 -> SPI1_CS
+ *
+ * Alternate functionality: AF5
+ * */
+
+void SPI_GPIOInits(void)
+{
+	GPIO_Handle_t SPIPins;
+	SPIPins.pGPIOx = GPIOA;
+	SPIPins.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_ALTFN;
+	SPIPins.GPIO_PinConfig.GPIO_PinAltFunMode = 5;
+	SPIPins.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
+	SPIPins.GPIO_PinConfig.GPIO_PinPuPdControl = GPIO_NO_PUPD;
+	SPIPins.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
+
+	//sclk
+	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_5;
+	GPIO_Init(&SPIPins);
+
+	//mosi
+	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_5;
+	GPIO_Init(&SPIPins);
+
+	//miso
+	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_5;
+	GPIO_Init(&SPIPins);
+
+	//css
+	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_5;
+	GPIO_Init(&SPIPins);
+
+}
+
+
+int main()
+{
+	SPI_GPIOInits();
+	return 0;
+}
+
+

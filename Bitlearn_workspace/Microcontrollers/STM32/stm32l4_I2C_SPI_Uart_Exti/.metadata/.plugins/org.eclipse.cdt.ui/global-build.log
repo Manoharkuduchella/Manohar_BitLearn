@@ -1,0 +1,131 @@
+16:08:06 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:211:26: warning: passing argument 1 of 'BME280_Measure' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  211 |           BME280_Measure(&sensor_log.temperature, &sensor_log.pressure, &sensor_log.humidity);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:25:
+../Core/Inc/BME280_STM32.h:68:28: note: expected 'float *' but argument is of type 'volatile float *'
+   68 | void BME280_Measure(float *temperature, float *pressure, float *humidity);
+      |                     ~~~~~~~^~~~~~~~~~~
+../Core/Src/main.c:211:51: warning: passing argument 2 of 'BME280_Measure' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  211 |           BME280_Measure(&sensor_log.temperature, &sensor_log.pressure, &sensor_log.humidity);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/BME280_STM32.h:68:48: note: expected 'float *' but argument is of type 'volatile float *'
+   68 | void BME280_Measure(float *temperature, float *pressure, float *humidity);
+      |                                         ~~~~~~~^~~~~~~~
+../Core/Src/main.c:211:73: warning: passing argument 3 of 'BME280_Measure' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  211 |           BME280_Measure(&sensor_log.temperature, &sensor_log.pressure, &sensor_log.humidity);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/BME280_STM32.h:68:65: note: expected 'float *' but argument is of type 'volatile float *'
+   68 | void BME280_Measure(float *temperature, float *pressure, float *humidity);
+      |                                                          ~~~~~~~^~~~~~~~
+arm-none-eabi-gcc -o "stm32_I2C_SPI_Uart_EXTI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\manohar kuduchella\STM32CubeIDE\stm32l4_I2C_SPI_Uart_Exti\stm32_I2C_SPI_Uart_EXTI\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_I2C_SPI_Uart_EXTI.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32_I2C_SPI_Uart_EXTI.elf
+ 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+arm-none-eabi-objdump -h -S stm32_I2C_SPI_Uart_EXTI.elf  > "stm32_I2C_SPI_Uart_EXTI.list"
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32_I2C_SPI_Uart_EXTI.list
+ 
+16:09:01 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+16:18:23 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+16:20:10 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+19:50:38 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:204:26: warning: passing argument 1 of 'BME280_Measure' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  204 |           BME280_Measure(&sensor_log.temperature, &sensor_log.pressure, &sensor_log.humidity);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:25:
+../Core/Inc/BME280_STM32.h:68:28: note: expected 'float *' but argument is of type 'volatile float *'
+   68 | void BME280_Measure(float *temperature, float *pressure, float *humidity);
+      |                     ~~~~~~~^~~~~~~~~~~
+../Core/Src/main.c:204:51: warning: passing argument 2 of 'BME280_Measure' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  204 |           BME280_Measure(&sensor_log.temperature, &sensor_log.pressure, &sensor_log.humidity);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/BME280_STM32.h:68:48: note: expected 'float *' but argument is of type 'volatile float *'
+   68 | void BME280_Measure(float *temperature, float *pressure, float *humidity);
+      |                                         ~~~~~~~^~~~~~~~
+../Core/Src/main.c:204:73: warning: passing argument 3 of 'BME280_Measure' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  204 |           BME280_Measure(&sensor_log.temperature, &sensor_log.pressure, &sensor_log.humidity);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/BME280_STM32.h:68:65: note: expected 'float *' but argument is of type 'volatile float *'
+   68 | void BME280_Measure(float *temperature, float *pressure, float *humidity);
+      |                                                          ~~~~~~~^~~~~~~~
+arm-none-eabi-gcc -o "stm32_I2C_SPI_Uart_EXTI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\manohar kuduchella\STM32CubeIDE\stm32l4_I2C_SPI_Uart_Exti\stm32_I2C_SPI_Uart_EXTI\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_I2C_SPI_Uart_EXTI.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32_I2C_SPI_Uart_EXTI.elf
+ 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+arm-none-eabi-objdump -h -S stm32_I2C_SPI_Uart_EXTI.elf  > "stm32_I2C_SPI_Uart_EXTI.list"
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32_I2C_SPI_Uart_EXTI.list
+ 
+19:54:31 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+19:55:39 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+19:57:35 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+19:03:49 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+19:05:42 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 
+19:08:06 **** Incremental Build of configuration Debug for project stm32_I2C_SPI_Uart_EXTI ****
+make -j12 all 
+arm-none-eabi-size  stm32_I2C_SPI_Uart_EXTI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39048	    468	   2308	  41824	   a360	stm32_I2C_SPI_Uart_EXTI.elf
+Finished building: default.size.stdout
+ 

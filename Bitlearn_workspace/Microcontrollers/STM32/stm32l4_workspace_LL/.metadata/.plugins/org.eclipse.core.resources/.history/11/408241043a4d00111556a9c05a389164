@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: May 11, 2026
+ *      Author: manohar kuduchella
+ */
+#include "stm32l476xx.h"
+
+int main()
+{
+	return 0;
+}
+
+
+void EXTI0_IRQHandler(void)
+{
+
+}
