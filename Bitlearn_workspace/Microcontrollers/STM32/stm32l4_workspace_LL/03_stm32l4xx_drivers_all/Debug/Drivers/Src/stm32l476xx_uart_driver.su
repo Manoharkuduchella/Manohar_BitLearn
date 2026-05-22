@@ -1,0 +1,12 @@
+../Drivers/Src/stm32l476xx_uart_driver.c:15:6:USART_PeriClockControl	16	static
+../Drivers/Src/stm32l476xx_uart_driver.c:50:6:USART_Init	24	static
+../Drivers/Src/stm32l476xx_uart_driver.c:173:6:USART_DeInit	16	static
+../Drivers/Src/stm32l476xx_uart_driver.c:193:6:USART_SendData	32	static
+../Drivers/Src/stm32l476xx_uart_driver.c:250:6:USART_ReceiveData	32	static
+../Drivers/Src/stm32l476xx_uart_driver.c:311:6:USART_SetBaudRate	24	static
+../Drivers/Src/stm32l476xx_uart_driver.c:341:6:USART_PeripheralControl	16	static
+../Drivers/Src/stm32l476xx_uart_driver.c:353:9:USART_GetFlagStatus	16	static
+../Drivers/Src/stm32l476xx_uart_driver.c:363:6:USART_ClearFlag	16	static
+../Drivers/Src/stm32l476xx_uart_driver.c:404:6:USART_IRQInterruptConfig	16	static
+../Drivers/Src/stm32l476xx_uart_driver.c:440:6:USART_IRQPriorityConfig	24	static
+../Drivers/Src/stm32l476xx_uart_driver.c:450:6:USART_IRQHandling	16	static

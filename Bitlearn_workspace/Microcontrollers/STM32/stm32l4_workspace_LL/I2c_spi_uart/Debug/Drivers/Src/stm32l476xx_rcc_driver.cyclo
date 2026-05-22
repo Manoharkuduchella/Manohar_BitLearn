@@ -1,0 +1,2 @@
+../Drivers/Src/stm32l476xx_rcc_driver.c:15:10:RCC_GetPCLK1Value	5
+../Drivers/Src/stm32l476xx_rcc_driver.c:62:10:RCC_GetPCLK2Value	1

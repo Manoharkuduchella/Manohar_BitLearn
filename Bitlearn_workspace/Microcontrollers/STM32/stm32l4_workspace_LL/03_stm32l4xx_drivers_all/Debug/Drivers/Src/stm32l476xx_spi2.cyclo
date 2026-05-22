@@ -1,0 +1,6 @@
+../Drivers/Src/stm32l476xx_spi2.c:12:6:SPI_PeriClockControl	8
+../Drivers/Src/stm32l476xx_spi2.c:32:6:SPI_Init	6
+../Drivers/Src/stm32l476xx_spi2.c:90:9:SPI_GetFlagStatus	2
+../Drivers/Src/stm32l476xx_spi2.c:100:9:SPI_Transfer	3
+../Drivers/Src/stm32l476xx_spi2.c:110:6:SPI_SendData	6
+../Drivers/Src/stm32l476xx_spi2.c:139:6:SPI_ReceiveData	8

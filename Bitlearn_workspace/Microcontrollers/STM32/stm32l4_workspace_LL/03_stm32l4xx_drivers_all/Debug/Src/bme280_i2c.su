@@ -1,0 +1,8 @@
+../Src/bme280_i2c.c:55:9:BME280_ReadID	32	static
+../Src/bme280_i2c.c:79:9:BME280_Config	32	static
+../Src/bme280_i2c.c:200:16:TrimRead	56	static
+../Src/bme280_i2c.c:268:16:BMEReadRaw	40	static
+../Src/bme280_i2c.c:320:9:BME280_Measure	24	static
+../Src/bme280_i2c.c:367:16:BME280_compensate_T_int32	32	static
+../Src/bme280_i2c.c:385:17:BME280_compensate_P_int32	32	static
+../Src/bme280_i2c.c:433:17:bme280_compensate_H_int32	24	static

@@ -1,0 +1,110 @@
+/*
+ * stm32l476_spi2.h
+ *
+ *  Created on: May 15, 2026
+ *      Author: manohar kuduchella
+ */
+
+#ifndef INC_STM32L476XX_SPI2_H_
+#define INC_STM32L476XX_SPI2_H_
+
+#include "stm32l476xx.h"
+
+/* ================= CONFIG STRUCT ================= */
+
+typedef struct {
+	uint8_t DeviceMode;   // Master/Slave
+	uint8_t BusConfig;    // Full duplex
+	uint8_t SclkSpeed;    // Baud rate
+	uint8_t DFF;          // Data frame format
+	uint8_t CPOL;
+	uint8_t CPHA;
+	uint8_t SSM;
+} SPI_Config_t;
+
+typedef struct {
+	SPI_RegDef_t *pSPIx;
+	SPI_Config_t SPI_Config;
+} SPI_Handle_t;
+
+/* ================= MACROS ================= */
+
+/***BIT positions def SPI_CR1*/
+
+#define SPI_CR1_CPHA 		0
+#define SPI_CR1_CPOL 		1
+#define SPI_CR1_MSTR		2
+#define SPI_CR1_BR			3
+#define SPI_CR1_SPE			6
+#define SPI_CR1_LSBFIRST	7
+#define SPI_CR1_SSI			8
+#define SPI_CR1_SSM			9
+#define SPI_CR1_RXONLY		10
+#define SPI_CR1_CRCL		11
+#define SPI_CR1_CRCNEXT		12
+#define SPI_CR1_CRCEN		13
+#define SPI_CR1_BIDIOE		14
+#define SPI_CR1_BIDIMODE	15
+
+
+/***BIT positions def SPI_CR2*/
+#define SPI_CR2_RXDMAEN 	0
+#define SPI_CR2_DS		8
+#define SPI_CR2_NSSP	3
+#define SPI_CR2_FRXTH   12
+
+/***BIT positions def SPI_SR*/
+#define SPI_SR_TXE 			1
+#define SPI_SR_RXNE 		0
+#define SPI_SR_BSY 			7
+
+
+
+
+#define SPI_DEVICE_MODE_MASTER   1
+#define SPI_DEVICE_MODE_SLAVE    0
+
+#define SPI_BUS_CONFIG_FD        			 1
+#define SPI_BUS_CONFIG_HD        			 2
+#define SPI_BUS_CONFIG_SIMPLEX_RXONLY        3
+
+#define SPI_SCLK_SPEED_DIV2      0
+#define SPI_SCLK_SPEED_DIV4      1
+#define SPI_SCLK_SPEED_DIV8      2
+#define SPI_SCLK_SPEED_DIV16     3
+#define SPI_SCLK_SPEED_DIV32     4
+#define SPI_SCLK_SPEED_DIV64     5
+#define SPI_SCLK_SPEED_DIV128    6
+#define SPI_SCLK_SPEED_DIV256    7
+
+#define SPI_DFF_8BITS           0
+#define SPI_DFF_16BITS          1
+
+#define SPI_CPOL_LOW            0
+#define SPI_CPOL_HIGH           1
+
+#define SPI_CPHA_LOW            0
+#define SPI_CPHA_HIGH           1
+
+#define SPI_SSM_EN              1
+#define SPI_SSM_DI              0
+
+/* ================= FLAGS ================= */
+
+#define SPI_TXE_FLAG    (1 << 1)
+#define SPI_RXNE_FLAG   (1 << 0)
+#define SPI_BUSY_FLAG   (1 << 7)
+
+/* ================= API ================= */
+
+void SPI_PeriClockControl(SPI_RegDef_t *pSPIx, uint8_t EnOrDi);
+void SPI_Init(SPI_Handle_t *pSPIHandle);
+void SPI_DeInit(SPI_RegDef_t *pSPIx);
+void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *pTxBuffer, uint32_t Len);
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx, uint8_t *pRxBuffer, uint32_t Len);
+uint8_t SPI_GetFlagStatus(SPI_RegDef_t *pSPIx, uint32_t FlagName);
+
+
+
+
+#endif /* INC_STM32L476XX_SPI2_H_ */

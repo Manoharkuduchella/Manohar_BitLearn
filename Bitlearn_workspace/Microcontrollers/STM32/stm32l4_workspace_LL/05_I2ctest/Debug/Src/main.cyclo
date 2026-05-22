@@ -1,0 +1,6 @@
+../Src/main.c:20:6:I2C1_GPIOInits	1
+../Src/main.c:45:6:OPT3001_WriteReg	1
+../Src/main.c:58:10:OPT3001_ReadReg	6
+../Src/main.c:127:6:OPT3001_Init	1
+../Src/main.c:134:5:OPT3001_ReadLux	1
+../Src/main.c:152:5:main	1
