@@ -1,0 +1,6 @@
+../Src/adc.c:10:10:pa0_adc_read	8	static
+../Src/adc.c:15:6:adc_pa0_continous_conv_init	64	static
+../Src/adc.c:57:6:adc_pa0_single_conv_init	64	static
+../Src/adc.c:100:6:adc_pa0_interrupt_init	64	static
+../Src/adc.c:145:6:ADC1_2_IRQHandler	8	static
+../Src/adc.c:151:6:adc_init_start	8	static

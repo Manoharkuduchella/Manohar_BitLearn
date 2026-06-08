@@ -1,0 +1,7 @@
+../Src/main.c:24:5:__io_putchar	16	static
+../Src/main.c:31:5:main	8	static
+../Src/main.c:54:6:rtc_init	216	static
+../Src/main.c:88:6:rtc_calender_config	32	static
+../Src/main.c:119:6:rtc_calendar_show	48	static
+../Src/main.c:156:6:SysTick_Handler	8	static
+../Src/main.c:160:6:uart2_init	40	static
