@@ -1,0 +1,10 @@
+../Src/w25qxx.c:15:6:W25Q_Init	8	static
+../Src/w25qxx.c:19:6:W25Q_Reset	16	static
+../Src/w25qxx.c:39:6:W25Q_WriteEnable	16	static
+../Src/w25qxx.c:51:6:W25Q_WriteDisable	16	static
+../Src/w25qxx.c:63:9:W25Q_ReadStatus	16	static
+../Src/w25qxx.c:79:6:W25Q_WaitBusy	8	static
+../Src/w25qxx.c:85:10:W25Q_ReadID	16	static
+../Src/w25qxx.c:99:6:W25Q_Read	32	static
+../Src/w25qxx.c:119:6:W25Q_Write	32	static
+../Src/w25qxx.c:146:6:W25Q_EraseSector	24	static
