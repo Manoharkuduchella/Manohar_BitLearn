@@ -6,5 +6,6 @@ int main()
 	printf("####################hello from yocto c-app-%d######################\n",var);
 	#endif
 	printf("*********************hello from yocto c-app-%d**********************\n",var);
+	printf("^^^^^^^^^^^^^^^^^^^^^hello from yocto-patch c-app-%d^^^^^^^^^^^^^^^^\n",var);
 	return 0;
 }
