@@ -1,0 +1,7 @@
+Thread,Irqno,Status
+spi_thread,46,PASS
+i2c_thread,47,FAIL
+uart_thread,55,PASS
+spi_thread,46,PASS
+i2c_thread,47,FAIL
+uart_thread,55,PASS
