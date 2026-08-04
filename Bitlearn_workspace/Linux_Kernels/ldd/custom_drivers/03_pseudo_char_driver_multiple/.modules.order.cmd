@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/03_pseudo_char_driver_multiple/modules.order := {   echo /home/manohar/linux_ldd/ldd/custom_drivers/03_pseudo_char_driver_multiple/chr_dev_multiple.ko; :; } | awk '!x[$$0]++' - > /home/manohar/linux_ldd/ldd/custom_drivers/03_pseudo_char_driver_multiple/modules.order

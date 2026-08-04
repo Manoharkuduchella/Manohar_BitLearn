@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/firmware_tests.dir/tests/CalculatorTest.cpp.o -o firmware_tests  libcalculator.a /usr/lib/x86_64-linux-gnu/libgtest_main.so.1.18.0 -lpthread /usr/lib/x86_64-linux-gnu/libgtest.so.1.18.0 

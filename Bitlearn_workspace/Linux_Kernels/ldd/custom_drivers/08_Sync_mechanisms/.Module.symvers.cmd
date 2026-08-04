@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/Module.symvers := sed 's/ko$$/o/' /home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/modules.order | scripts/mod/modpost -m    -o /home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,114 @@
+#include<linux/module.h>
+#include<linux/init.h>
+#include<linux/platform_device.h>
+#include "platform.h"
+
+
+
+void pcdev_release(struct device *dev)
+{
+    pr_info("%s : Device released\n",__func__);
+}
+
+
+
+struct pcdev_platform_data pcdev_pdata[] = {
+    [0] = {
+        .size = 512,
+        .perm = RDWR,
+        .serial_number = "platform_dev_1"
+    },
+    [1] = {
+        .size = 1024,
+        .perm = RDWR,
+        .serial_number = "platform_dev_2"
+    },
+    [2] = {
+        .size = 128,
+        .perm = RDONLY,
+        .serial_number = "platform_dev_3"
+    },
+    [3] = {
+        .size = 32,
+        .perm = WRONLY,
+        .serial_number = "platform_dev_4"
+    },
+};
+
+struct platform_device platform_pcdev_1 = {
+    .name = "pcdev-A1x",
+    .id = 0,
+    .dev = {
+        .platform_data = (struct pcdev_platform_data*)&pcdev_pdata[0],
+        .release = pcdev_release,
+    }
+};
+
+struct platform_device platform_pcdev_2 = {
+    .name = "pcdev-B1x",
+    .id = 1,
+    .dev = {
+        .platform_data = (struct pcdev_platform_data*)&pcdev_pdata[1],
+        .release = pcdev_release,
+    }
+};
+
+
+struct platform_device platform_pcdev_3 = {
+    .name = "pcdev-C1x",
+    .id = 2,
+    .dev = {
+        .platform_data = (struct pcdev_platform_data*)&pcdev_pdata[2],
+        .release = pcdev_release,
+    }
+};
+
+
+struct platform_device platform_pcdev_4 = {
+    .name = "pcdev-D1x",
+    .id = 3,
+    .dev = {
+        .platform_data = (struct pcdev_platform_data*)&pcdev_pdata[3],
+        .release = pcdev_release,
+    }
+};
+
+
+struct platform_device *platform_pcdevs[] = {
+    &platform_pcdev_1,
+    &platform_pcdev_2,
+    &platform_pcdev_3,
+    &platform_pcdev_4
+};
+
+static int __init pcdev_platform_init(void)
+{
+
+    // platform_device_register(&platform_pcdev_1);
+    // platform_device_register(&platform_pcdev_2);
+    /*Used of multiple platform devices*/
+    platform_add_devices(platform_pcdevs,ARRAY_SIZE(platform_pcdevs));
+
+    pr_info("%s : Device setup module loaded\n",__func__);
+
+    return 0;
+}
+
+static void __exit pcdev_platform_exit(void)
+{
+    platform_device_unregister(&platform_pcdev_1);
+    platform_device_unregister(&platform_pcdev_2);
+    platform_device_unregister(&platform_pcdev_3);
+    platform_device_unregister(&platform_pcdev_4);
+
+    pr_info("%s : Device setup module unloaded\n",__func__);
+
+
+}
+
+module_init(pcdev_platform_init);
+module_exit(pcdev_platform_exit);
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Module which registers character platform devices");
+MODULE_AUTHOR("Manohar");

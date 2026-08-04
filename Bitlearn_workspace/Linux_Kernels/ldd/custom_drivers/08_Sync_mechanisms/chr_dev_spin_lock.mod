@@ -1,0 +1,2 @@
+/home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/chr_dev_spin_lock.o
+

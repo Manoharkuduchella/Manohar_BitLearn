@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/07_gpio_sysfs/Module.symvers := sed 's/ko$$/o/' /home/manohar/linux_ldd/ldd/custom_drivers/07_gpio_sysfs/modules.order | scripts/mod/modpost -m    -o /home/manohar/linux_ldd/ldd/custom_drivers/07_gpio_sysfs/Module.symvers -e -i Module.symvers   -T -

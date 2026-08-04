@@ -1,0 +1,187 @@
+##################################################################################
+YOCTO ASSIGNMENTS
+##################################################################################
+
+Assignment 1: Install Yocto Environment
+- Install Ubuntu 22.04
+- Install required packages:
+  sudo apt update
+  sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential \
+  chrpath socat cpio python3 python3-pip python3-pexpect xz-utils \
+  debianutils iputils-ping
+- Verify:
+  git --version
+  python3 --version
+  gcc --version
+
+##################################################################################
+Assignment 2: Download Poky
+- git clone git://git.yoctoproject.org/poky
+- cd poky
+- git checkout kirkstone
+Questions:
+- What is Poky?
+- Why use stable branches like kirkstone?
+- What does Poky contain?
+Document and submit
+##################################################################################
+
+Assignment 3: Create Build Environment
+- source oe-init-build-env
+Understand:
+- conf/
+- downloads/
+- sstate-cache/
+- tmp/
+
+##################################################################################
+
+Assignment 4: Build First Linux Image
+- bitbake core-image-minimal
+Questions:
+- What is BitBake?
+- What is an image recipe?
+- Where is the generated image located?
+##################################################################################
+
+Assignment 5: Boot Linux Using QEMU
+- runqemu qemux86-64
+- uname -a
+- cat /etc/os-release
+
+##################################################################################
+
+Assignment 6: Understand local.conf
+Modify:
+- MACHINE = "qemux86-64"
+- BB_NUMBER_THREADS = "4"
+- PARALLEL_MAKE = "-j4"
+
+##################################################################################
+
+Assignment 7: Explore BitBake Tasks
+- bitbake -c listtasks core-image-minimal
+Research:
+- do_fetch
+- do_unpack
+- do_patch
+- do_configure
+- do_compile
+- do_install
+- do_package
+
+##################################################################################
+
+Assignment 8: Create a Hello World Application
+hello.c:
+#include <stdio.h>
+int main() {
+    printf("Hello Yocto\n");
+    return 0;
+}
+##################################################################################
+
+Assignment 9: Create First Recipe
+Create:
+meta-training/
+└── recipes-example/
+    └── hello/
+        ├── hello.bb
+        └── hello.c
+
+hello.bb:
+SUMMARY = "Hello World Application"
+LICENSE = "MIT"
+SRC_URI = "file://hello.c"
+
+do_compile() {
+    ${CC} hello.c -o hello
+}
+
+do_install() {
+    install -d ${D}${bindir}
+    install -m 0755 hello ${D}${bindir}
+}
+##################################################################################
+
+Assignment 10: Create Custom Layer
+- bitbake-layers create-layer ../meta-training
+- bitbake-layers add-layer ../meta-training
+- bitbake-layers show-layers
+##################################################################################
+
+Assignment 11: Add Application to Image
+- IMAGE_INSTALL:append = " hello"
+- bitbake core-image-minimal
+- Run: hello
+##################################################################################
+
+Assignment 12: Understand Dependencies
+- Create recipes: libdemo and appdemo
+- Add: DEPENDS = "libdemo"
+Questions:
+- What is DEPENDS?
+- What is RDEPENDS?
+##################################################################################
+
+Assignment 13: Clean and Rebuild
+- bitbake -c clean hello
+- bitbake hello
+- bitbake -c cleansstate hello
+- bitbake hello
+##################################################################################
+
+Assignment 14: Add Startup Script
+Create:
+#!/bin/sh
+echo "Yocto Boot Successful"
+
+Install into:
+${sysconfdir}/init.d
+##################################################################################
+
+Assignment 15: Create Custom Image
+my-image.bb:
+SUMMARY = "Training Image"
+IMAGE_INSTALL = "packagegroup-core-boot hello"
+inherit core-image
+
+Build:
+- bitbake my-image
+##################################################################################
+
+Assignment 16: Explore Build Outputs
+Explore:
+tmp/deploy/images/
+Find:
+- Kernel image
+- Root filesystem
+- Manifest files
+##################################################################################
+
+Assignment 17: Modify Kernel Configuration
+- bitbake virtual/kernel -c menuconfig
+
+Assignment 18: Package Management
+Try:
+- PACKAGE_CLASSES = "package_rpm"
+- PACKAGE_CLASSES = "package_deb"
+- PACKAGE_CLASSES = "package_ipk"
+##################################################################################
+
+FINAL MINI PROJECT
+Build your own embedded Linux distribution:
+1. Create custom layer: meta-training
+2. Create application: systeminfo
+3. Display hostname, kernel version, and date
+4. Create recipe
+5. Add application into image
+6. Add startup script
+7. Build image
+8. Boot in QEMU
+9. Execute systeminfo
+10. Submit source code, recipes, logs, screenshots, and documentation.
+
+##################################################################################
+END
+##################################################################################

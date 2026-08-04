@@ -1,0 +1,573 @@
+cscope 15 $HOME/linux_ldd/ldd/custom_drivers/09_Interrupts -q 0000000059 0000003419
+	@ethernet_int_threaded_irq.c
+
+1 
+	~<löux/moduÀ.h
+>
+
+2 
+	~<löux/öô.h
+>
+
+3 
+	~<löux/öãºu±.h
+>
+
+5 
+	#SHARED_IRQ
+ 19
+
+	)
+
+7 
+MODULE_LICENSE
+("GPL");
+
+9 
+	gúq
+ = 
+SHARED_IRQ
+, 
+	gmy_dev_id
+, 
+	gúq_cou¡î
+ = 0;
+
+11 
+moduÀ_∑øm
+(
+úq
+, , 
+S_IRUGO
+);
+
+14 
+úqªtu∫_t
+ 
+	$ëh_öãºu±
+(
+úq
+, *
+dev_id
+)
+
+16 
+	`¥_öfo
+("%s\n",
+__func__
+);
+
+20  
+IRQ_WAKE_THREAD
+;
+
+22 
+	}
+}
+
+24 
+úqªtu∫_t
+ 
+	$ëh_thªaded_öãºu±
+(
+úq
+, *
+dev_id
+)
+
+26 
+	`¥_öfo
+("%s\n",
+__func__
+);
+
+27  
+IRQ_NONE
+;
+
+28 
+	}
+}
+
+30 
+__öô
+ 
+	$ëh¡_Irq_öô
+()
+
+32 if(
+	`ªque°_thªaded_úq
+(
+úq
+,
+ëh_öãºu±
+,
+ëh_thªaded_öãºu±
+,
+
+33 
+IRQF_SHARED
+,"ëh_öãºu±",&
+my_dev_id
+))
+
+35 
+	`¥_öfo
+("ÁûedÅÿª£rvêúq %d\n",
+úq
+);
+
+38 
+	`¥_öfo
+("SuccessfullyÜoading ISR handler\n");
+
+41 
+	}
+}
+
+43 
+__exô
+ 
+	$ëh¡_Irq_exô
+()
+
+45 
+	`synchr⁄ize_úq
+(
+úq
+);
+
+46 
+	`‰ì_úq
+(
+úq
+,&
+my_dev_id
+);
+
+48 
+	`¥_öfo
+("Suc˚ssfuŒy u∆ﬂdög, irq cou¡î = %d\n",
+úq_cou¡î
+);
+
+49 
+	}
+}
+
+51 
+moduÀ_öô
+(
+ëh¡_Irq_öô
+);
+
+52 
+moduÀ_exô
+(
+ëh¡_Irq_exô
+);
+
+	@ethernet_int_threaded_irq.mod.c
+
+1 
+	~<löux/moduÀ.h
+>
+
+2 
+	#INCLUDE_VERMAGIC
+
+
+	)
+
+3 
+	~<löux/buûd-ß….h
+>
+
+4 
+	~<löux/vîmagic.h
+>
+
+5 
+	~<löux/compûî.h
+>
+
+7 
+	gBUILD_SALT
+;
+
+9 
+MODULE_INFO
+(
+vîmagic
+, 
+VERMAGIC_STRING
+);
+
+10 
+MODULE_INFO
+(
+«me
+, 
+KBUILD_MODNAME
+);
+
+12 
+__visibÀ
+ 
+moduÀ
+ 
+__this_moduÀ
+
+
+13 
+__£˘i⁄
+(".gnu.linkonce.this_module") = {
+
+14 .
+«me
+ = 
+KBUILD_MODNAME
+,
+
+15 .
+	göô
+ = 
+öô_moduÀ
+,
+
+16 #ifde‡
+CONFIG_MODULE_UNLOAD
+
+
+17 .
+	gexô
+ = 
+˛ónup_moduÀ
+,
+
+19 .
+	g¨ch
+ = 
+MODULE_ARCH_INIT
+,
+
+22 #ifde‡
+CONFIG_RETPOLINE
+
+
+23 
+MODULE_INFO
+(
+ªçﬁöe
+, "Y");
+
+26 c⁄° 
+modvîsi⁄_öfo
+ 
+	g____vîsi⁄s
+[]
+
+27 
+__u£d
+ 
+__£˘i⁄
+("__versions") = {
+
+37 
+MODULE_INFO
+(
+dïíds
+, "");
+
+	@ethernet_interrupt.c
+
+1 
+	~<löux/moduÀ.h
+>
+
+2 
+	~<löux/öô.h
+>
+
+3 
+	~<löux/öãºu±.h
+>
+
+5 
+	#SHARED_IRQ
+ 19
+
+	)
+
+7 
+MODULE_LICENSE
+("GPL");
+
+9 
+	gúq
+ = 
+SHARED_IRQ
+, 
+	gmy_dev_id
+, 
+	gúq_cou¡î
+ = 0;
+
+11 
+moduÀ_∑øm
+(
+úq
+, , 
+S_IRUGO
+);
+
+14 
+úqªtu∫_t
+ 
+	$ëh_öãºu±
+(
+úq
+, *
+dev_id
+)
+
+16 
+úq_cou¡î
+++;
+
+17 
+	`¥_öfo
+("I¿thêISR: cou¡î = %d\n",
+úq_cou¡î
+);
+
+18  
+IRQ_NONE
+;
+
+19 
+	}
+}
+
+21 
+__öô
+ 
+	$ëh¡_Irq_öô
+()
+
+23 if(
+	`ªque°_úq
+(
+úq
+,
+ëh_öãºu±
+,
+IRQF_SHARED
+,"ëh_öãºu±",&
+my_dev_id
+))
+
+25 
+	`¥_öfo
+("ÁûedÅÿª£rvêúq %d\n",
+úq
+);
+
+28 
+	`¥_öfo
+("SuccessfullyÜoading ISR handler\n");
+
+31 
+	}
+}
+
+33 
+__exô
+ 
+	$ëh¡_Irq_exô
+()
+
+35 
+	`synchr⁄ize_úq
+(
+úq
+);
+
+36 
+	`‰ì_úq
+(
+úq
+,&
+my_dev_id
+);
+
+38 
+	`¥_öfo
+("Suc˚ssfuŒy u∆ﬂdög, irq cou¡î = %d\n",
+úq_cou¡î
+);
+
+39 
+	}
+}
+
+41 
+moduÀ_öô
+(
+ëh¡_Irq_öô
+);
+
+42 
+moduÀ_exô
+(
+ëh¡_Irq_exô
+);
+
+	@ethernet_interrupt.mod.c
+
+1 
+	~<löux/moduÀ.h
+>
+
+2 
+	#INCLUDE_VERMAGIC
+
+
+	)
+
+3 
+	~<löux/buûd-ß….h
+>
+
+4 
+	~<löux/vîmagic.h
+>
+
+5 
+	~<löux/compûî.h
+>
+
+7 
+	gBUILD_SALT
+;
+
+9 
+MODULE_INFO
+(
+vîmagic
+, 
+VERMAGIC_STRING
+);
+
+10 
+MODULE_INFO
+(
+«me
+, 
+KBUILD_MODNAME
+);
+
+12 
+__visibÀ
+ 
+moduÀ
+ 
+__this_moduÀ
+
+
+13 
+__£˘i⁄
+(".gnu.linkonce.this_module") = {
+
+14 .
+«me
+ = 
+KBUILD_MODNAME
+,
+
+15 .
+	göô
+ = 
+öô_moduÀ
+,
+
+16 #ifde‡
+CONFIG_MODULE_UNLOAD
+
+
+17 .
+	gexô
+ = 
+˛ónup_moduÀ
+,
+
+19 .
+	g¨ch
+ = 
+MODULE_ARCH_INIT
+,
+
+22 #ifde‡
+CONFIG_RETPOLINE
+
+
+23 
+MODULE_INFO
+(
+ªçﬁöe
+, "Y");
+
+26 c⁄° 
+modvîsi⁄_öfo
+ 
+	g____vîsi⁄s
+[]
+
+27 
+__u£d
+ 
+__£˘i⁄
+("__versions") = {
+
+37 
+MODULE_INFO
+(
+dïíds
+, "");
+
+	@/usr/include/linux/module.h
+
+2 #i‚de‡
+_LINUX_MODULE_H
+
+
+3 
+	#_LINUX_MODULE_H
+
+
+	)
+
+6 
+	#MODULE_INIT_IGNORE_MODVERSIONS
+ 1
+
+	)
+
+7 
+	#MODULE_INIT_IGNORE_VERMAGIC
+ 2
+
+	)
+
+	@
+1
+.
+1
+/usr/include
+5
+134
+ethernet_int_threaded_irq.c
+ethernet_int_threaded_irq.mod.c
+ethernet_interrupt.c
+ethernet_interrupt.mod.c
+/usr/include/linux/module.h

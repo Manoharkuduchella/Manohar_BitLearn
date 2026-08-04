@@ -1,0 +1,25 @@
+From 92f077bfb140c4efe7f7b8cc561cda2da24dde02 Mon Sep 17 00:00:00 2001
+From: Manohar <manoharkuduchella@gmail.com>
+Date: Wed, 29 Jul 2026 09:41:05 +0000
+Subject: [PATCH] Add changes in hello.c from dev shell
+
+---
+ hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello.c b/hello.c
+index a753984..b63d667 100644
+--- a/hello.c
++++ b/hello.c
+@@ -8,7 +8,7 @@ int main()
+ 	printf("*********************hello from yocto c-app-%d**********************\n",var);
+ 
+ 	//added for demonstrating DEPENDS for static lib(c-static-lib recipe)
+-	//print("hello form c-app\n",5);
++	//print("hello form c-app\n",7);
+ 	
+ 	system("lspci");
+ 
+-- 
+2.34.1
+

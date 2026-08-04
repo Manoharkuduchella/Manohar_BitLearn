@@ -1,0 +1,109 @@
+#include<linux/module.h>
+#include<linux/init.h>
+#include<linux/proc_fs.h>
+#include <linux/uaccess.h>
+#include <linux/errno.h>
+
+MODULE_LICENSE("GPL");
+
+struct proc_dir_entry *pproc_dir;
+static char kbuffer[20];
+
+int dummy_open(struct inode *pinode, struct file *pfile)
+{
+    pr_info("%s : called\n",__func__);
+    return 0;
+}   
+ssize_t dummy_read(struct file *pfile, char __user *buff, size_t len, loff_t *poff)
+{
+    ssize_t blen;
+
+    pr_info("%s : called\n",__func__);
+    blen = strlen(kbuffer);
+
+    if (*poff != 0)
+    return 0;
+
+    if(len > blen)
+        len = blen;
+
+    blen = copy_to_user(buff, kbuffer, (unsigned long)len);
+    if(blen != 0)
+    {
+        pr_err("copy to user failed\n");
+        return -EFAULT;
+    }
+
+    *poff += len;
+
+    return len;
+}
+ssize_t dummy_write(struct file *pfile, const char __user *buff, size_t len, loff_t *poff)
+{
+    ssize_t blen;
+
+    pr_info("%s : called\n",__func__);
+    blen = strlen(buff);
+
+    if (len >= sizeof(kbuffer))
+    len = sizeof(kbuffer) - 1;
+
+    blen = copy_from_user(kbuffer, buff,len);
+    if(blen != 0)
+    {
+        pr_err("copy to user failed\n");
+        return -EFAULT;
+    }
+
+    kbuffer[len] = 0;
+
+    pr_info("%s : read form user: %s\n",__func__,kbuffer);
+
+    return len;
+}
+
+int dummy_release(struct inode *pinode, struct file *pfile)
+{
+    pr_info("%s : called\n",__func__);
+    return 0;
+}
+
+
+
+static struct proc_ops proc_fops = {
+    .proc_open = dummy_open,
+    .proc_read = dummy_read,
+    .proc_write = dummy_write,
+    .proc_release = dummy_release,
+
+};
+
+
+static int __init proc_init(void)
+{
+    pr_info("%s : init\n",__func__);
+    pproc_dir = proc_mkdir("dummy", NULL);
+    if(!pproc_dir)
+    {
+        pr_info("failed to create proc_mkdir\n");
+        return -1;
+    }
+
+    proc_create("dummy_node", 
+                0666, 
+                pproc_dir, 
+                &proc_fops);
+
+    return 0;
+}
+
+static void __exit proc_exit(void)
+{
+    proc_remove(pproc_dir);
+    pr_info("%s : exit\n",__func__);
+
+}
+
+
+module_init(proc_init);
+module_exit(proc_exit);

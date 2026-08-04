@@ -1,0 +1,4 @@
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/sensor_monitor/build/CMakeFiles/sensor_monitor.dir
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/sensor_monitor/build/CMakeFiles/sensor_monitor_tests.dir
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/sensor_monitor/build/CMakeFiles/edit_cache.dir
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/sensor_monitor/build/CMakeFiles/rebuild_cache.dir

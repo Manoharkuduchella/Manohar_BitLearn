@@ -1,0 +1,394 @@
+==================================================================
+        Linux Kernel Programming Assignments
+               procfs & sysfs (20 Assignments)
+==================================================================
+
+Assignment 1: Create a Simple procfs Entry
+--------------------------------------------------
+Objective:
+Create a kernel module that creates a file under /proc.
+
+Requirements:
+- Create /proc/myproc
+- When read, display:
+  Hello from procfs!
+- Remove the proc entry when the module is unloaded.
+
+Expected Output:
+$ cat /proc/myproc
+Hello from procfs!
+
+
+==================================================================
+
+Assignment 2: procfs Read/Write
+--------------------------------------------------
+Objective:
+Implement both read and write operations.
+
+Requirements:
+- Create /proc/message
+- Support writing:
+  echo "Linux Kernel" > /proc/message
+- Reading should display:
+  Linux Kernel
+- Store the latest message in kernel memory.
+
+Expected Output:
+$ echo "Linux Kernel" > /proc/message
+$ cat /proc/message
+Linux Kernel
+
+
+==================================================================
+
+Assignment 3: Counter Using procfs
+--------------------------------------------------
+Objective:
+Maintain a counter inside the kernel.
+
+Requirements:
+Each time the proc file is read, increment the counter.
+
+Expected Output:
+$ cat /proc/counter
+1
+
+$ cat /proc/counter
+2
+
+$ cat /proc/counter
+3
+
+
+==================================================================
+
+Assignment 4: Process Information
+--------------------------------------------------
+Objective:
+Display information about the current process.
+
+Requirements:
+Display:
+- PID
+- Parent PID
+- Process Name
+- Process State
+- Current CPU
+
+Hint:
+Use task_struct and current pointer.
+
+
+==================================================================
+
+Assignment 5: Memory Information
+--------------------------------------------------
+Objective:
+Display memory information.
+
+Requirements:
+Print:
+- Total RAM
+- Free RAM
+- Buffer Memory
+- Shared Memory
+
+Hint:
+Use kernel memory information APIs.
+
+
+==================================================================
+
+Assignment 6: Create a sysfs Attribute
+--------------------------------------------------
+Objective:
+Create a sysfs attribute.
+
+Requirements:
+Create:
+/sys/kernel/mydriver/value
+
+Default value:
+100
+
+Support:
+cat value
+echo 200 > value
+
+Expected Output:
+$ cat value
+100
+
+$ echo 200 > value
+
+$ cat value
+200
+
+
+==================================================================
+
+Assignment 7: Multiple sysfs Attributes
+--------------------------------------------------
+Objective:
+Create multiple attributes.
+
+Create:
+/sys/kernel/mydriver/
+
+Files:
+- name
+- version
+- count
+
+Expected Output:
+$ cat name
+MyDriver
+
+$ cat version
+1.0
+
+$ cat count
+50
+
+
+==================================================================
+
+Assignment 8: LED Simulation using sysfs
+--------------------------------------------------
+Objective:
+Simulate LED ON/OFF.
+
+Create:
+brightness
+
+Commands:
+
+echo 1 > brightness
+-> LED ON
+
+echo 0 > brightness
+-> LED OFF
+
+
+==================================================================
+
+Assignment 9: procfs Calculator
+--------------------------------------------------
+Objective:
+Create a simple calculator.
+
+Create:
+/proc/calculator
+
+Input:
+echo "10 20" > /proc/calculator
+
+Output:
+Sum = 30
+
+
+==================================================================
+
+Assignment 10: Kernel Uptime
+--------------------------------------------------
+Objective:
+Display kernel uptime.
+
+Create:
+/proc/uptime_test
+
+Expected Output:
+Kernel Uptime : XXX seconds
+
+
+==================================================================
+
+Assignment 11: Driver Information using sysfs
+--------------------------------------------------
+Objective:
+Create driver information entries.
+
+Create:
+/sys/kernel/device/
+
+Attributes:
+- temperature
+- voltage
+- status
+
+Expected Output:
+Temperature : 35 C
+Voltage : 3.3 V
+Status : Running
+
+
+==================================================================
+
+Assignment 12: procfs Statistics
+--------------------------------------------------
+Objective:
+Maintain read/write statistics.
+
+Display:
+Reads : X
+Writes : Y
+
+
+==================================================================
+
+Assignment 13: System Information
+--------------------------------------------------
+Objective:
+Display system information.
+
+Create:
+/proc/systeminfo
+
+Display:
+- CPU Architecture
+- Kernel Version
+- Hostname
+- Page Size
+
+
+==================================================================
+
+Assignment 14: Dynamic sysfs Attribute
+--------------------------------------------------
+Objective:
+Create configurable mode attribute.
+
+Attribute:
+mode
+
+Allowed Values:
+AUTO
+MANUAL
+OFF
+
+Invalid input should return:
+Invalid Mode
+
+
+==================================================================
+
+Assignment 15: PID Lookup
+--------------------------------------------------
+Objective:
+Accept PID from user and display process details.
+
+Input:
+echo 1234 > /proc/pidinfo
+
+Output:
+PID
+Name
+Parent PID
+State
+
+
+==================================================================
+
+Assignment 16: Module Parameters + procfs
+--------------------------------------------------
+Objective:
+Use module parameters.
+
+Example:
+
+insmod hello.ko count=25
+
+Reading:
+
+cat /proc/hello
+
+Output:
+Count = 25
+
+
+==================================================================
+
+Assignment 17: sysfs Trigger
+--------------------------------------------------
+Objective:
+Trigger actions from userspace.
+
+Attribute:
+trigger
+
+Commands:
+
+echo start > trigger
+
+Kernel Log:
+Operation Started
+
+echo stop > trigger
+
+Kernel Log:
+Operation Stopped
+
+
+==================================================================
+
+Assignment 18: procfs Circular Buffer
+--------------------------------------------------
+Objective:
+Maintain last 10 log messages.
+
+Example:
+
+echo One > /proc/log
+echo Two > /proc/log
+echo Three > /proc/log
+
+Reading:
+One
+Two
+Three
+
+
+==================================================================
+
+Assignment 19: Read-Only and Read-Write sysfs Files
+--------------------------------------------------
+Objective:
+Create attributes with different permissions.
+
+Files:
+serial_number (Read Only)
+enable (Read Write)
+
+Attempt:
+
+echo 100 > serial_number
+
+Expected:
+Permission denied
+
+
+==================================================================
+
+Assignment 20: Mini Device Driver
+--------------------------------------------------
+Objective:
+Develop a mini driver interface.
+
+Create:
+/proc/device
+
+/sys/kernel/device/
+
+Features:
+- Enable
+- Disable
+- Reset
+- Read Status
+- Driver Version
+- Read Statistics
+
+
+==================================================================
+End of Document
+==================================================================

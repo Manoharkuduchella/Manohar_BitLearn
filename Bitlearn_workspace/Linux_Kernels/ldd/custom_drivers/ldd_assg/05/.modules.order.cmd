@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/modules.order := {   echo /home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/timer_soft_intpt.ko;   echo /home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/timer_soft_int_tasklet.ko; :; } | awk '!x[$$0]++' - > /home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/modules.order

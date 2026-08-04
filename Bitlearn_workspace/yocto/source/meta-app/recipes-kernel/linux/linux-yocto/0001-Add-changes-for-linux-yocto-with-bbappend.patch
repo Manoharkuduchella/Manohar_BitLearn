@@ -1,0 +1,28 @@
+From 5f46408e453cfc56a398e01e09c674992524ca48 Mon Sep 17 00:00:00 2001
+From: Manohar <manoharkuduchella@gmail.com>
+Date: Mon, 3 Aug 2026 13:31:00 +0000
+Subject: [PATCH] Add changes for linux-yocto with bbappend
+
+Upstream-Status: Inappropriate [local debug message]
+
+---
+ init/main.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/init/main.c b/init/main.c
+index a740472d2f55..f72759cab3d4 100644
+--- a/init/main.c
++++ b/init/main.c
+@@ -914,6 +914,9 @@ void start_kernel(void)
+ 	setup_per_cpu_areas();
+ 	smp_prepare_boot_cpu();	/* arch-specific boot-cpu hooks */
+ 	boot_cpu_hotplug_init();
++	
++	//patch for linux-yocto with bbappend
++	pr_notice("Starting linux-yocto with bbappend\n");
+ 
+ 	pr_notice("Kernel command line: %s\n", saved_command_line);
+ 	/* parameters may set static keys */
+-- 
+2.44.4
+

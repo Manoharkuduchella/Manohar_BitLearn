@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sensor_monitor_tests.dir/tests/TemperatureSensorTest.cpp.o -o sensor_monitor_tests  libsensor_monitor.a /usr/lib/x86_64-linux-gnu/libgmock.so.1.18.0 /usr/lib/x86_64-linux-gnu/libgtest_main.so.1.18.0 -lpthread /usr/lib/x86_64-linux-gnu/libgtest.so.1.18.0 

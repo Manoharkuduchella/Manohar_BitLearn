@@ -1,0 +1,4 @@
+/home/manohar/linux_ldd/GTest_and_GMock/firmware_test/build/CMakeFiles/calculator.dir
+/home/manohar/linux_ldd/GTest_and_GMock/firmware_test/build/CMakeFiles/firmware_tests.dir
+/home/manohar/linux_ldd/GTest_and_GMock/firmware_test/build/CMakeFiles/edit_cache.dir
+/home/manohar/linux_ldd/GTest_and_GMock/firmware_test/build/CMakeFiles/rebuild_cache.dir

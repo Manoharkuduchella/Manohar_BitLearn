@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/chr_dev_mutexlock.mod := { echo  /home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/chr_dev_mutexlock.o;  echo; } > /home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/chr_dev_mutexlock.mod

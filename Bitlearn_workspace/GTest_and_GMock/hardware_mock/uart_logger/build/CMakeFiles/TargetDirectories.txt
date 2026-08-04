@@ -1,0 +1,4 @@
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/uart_logger/build/CMakeFiles/logger.dir
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/uart_logger/build/CMakeFiles/uart_logger_tests.dir
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/uart_logger/build/CMakeFiles/edit_cache.dir
+/home/manohar/linux_ldd/GTest_and_GMock/hardware_mock/uart_logger/build/CMakeFiles/rebuild_cache.dir

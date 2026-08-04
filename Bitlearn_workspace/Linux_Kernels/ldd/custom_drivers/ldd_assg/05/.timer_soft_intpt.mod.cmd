@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/timer_soft_intpt.mod := { echo  /home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/timer_soft_intpt.o;  echo; } > /home/manohar/linux_ldd/ldd/custom_drivers/ldd_assg/05/timer_soft_intpt.mod

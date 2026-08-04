@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/07_gpio_sysfs/gpio_sysfs.mod := { echo  /home/manohar/linux_ldd/ldd/custom_drivers/07_gpio_sysfs/gpio_sysfs.o;  echo; } > /home/manohar/linux_ldd/ldd/custom_drivers/07_gpio_sysfs/gpio_sysfs.mod

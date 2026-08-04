@@ -1,0 +1,23 @@
+From 308cea7013f7c5f7b841831798f1b5c408bafe0b Mon Sep 17 00:00:00 2001
+From: Manohar <manoharkuduchella@gmail.com>
+Date: Thu, 23 Jul 2026 20:47:39 +0530
+Subject: [PATCH] Add patch for git yocto
+
+---
+ Bitlearn_workspace/yocto/hello.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/Bitlearn_workspace/yocto/hello.c b/Bitlearn_workspace/yocto/hello.c
+index ee8e235..bd6838e 100644
+--- a/Bitlearn_workspace/yocto/hello.c
++++ b/Bitlearn_workspace/yocto/hello.c
+@@ -6,5 +6,6 @@ int main()
+ 	printf("####################hello from yocto c-app-%d######################\n",var);
+ 	#endif
+ 	printf("*********************hello from yocto c-app-%d**********************\n",var);
++	printf("^^^^^^^^^^^^^^^^^^^^^hello from yocto-patch c-app-%d^^^^^^^^^^^^^^^^\n",var);
+ 	return 0;
+ }
+-- 
+2.34.1
+

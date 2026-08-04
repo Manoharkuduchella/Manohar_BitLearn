@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/thread_spinlock.mod := { echo  /home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/thread_spinlock.o;  echo; } > /home/manohar/linux_ldd/ldd/custom_drivers/08_Sync_mechanisms/thread_spinlock.mod

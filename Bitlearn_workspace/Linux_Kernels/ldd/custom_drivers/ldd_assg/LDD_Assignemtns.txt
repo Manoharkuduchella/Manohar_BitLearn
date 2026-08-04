@@ -1,0 +1,195 @@
+##############################################################
+		      Assignments 
+##############################################################
+
+Assignment 1: Character Device Driver
+Objective: Create your first character driver.
+Tasks:
+Register a character device.
+Create /dev/mychar.
+Implement:
+open()
+release()
+read()
+write()
+Test:
+echo "Hello" > /dev/mychar
+cat /dev/mychar
+##############################################################
+
+Assignment 2: Dynamic Device Number
+Tasks:
+Use alloc_chrdev_region().
+Print Major and Minor numbers.
+Create device node manually.
+Learn:
+mknod
+Major/Minor numbers
+##############################################################
+
+Assignment 3: Automatic Device Creation
+Tasks:
+Create device class.
+Automatically create /dev/mychar.
+Remove device automatically during module unload.
+Learn:
+class_create()
+device_create()
+##############################################################
+
+Assignment 5: Kernel Linked List
+Tasks:
+Store written strings in a linked list.
+Read all stored data back.
+Learn:
+list_head
+Memory allocation (kmalloc()/kfree())
+##############################################################
+
+Assignment 6: IOCTL Driver
+Tasks:
+Add custom IOCTL commands:
+Reset buffer
+Get driver version
+Set LED status (dummy)
+Write a user-space application using:
+ioctl()
+##############################################################
+
+Assignment 7: Proc Filesystem
+Tasks:
+Create /proc/mydriver.
+Display:
+Driver version
+Read count
+Write count
+Learn:
+proc_create()
+##############################################################
+
+Assignment 8: Sysfs Interface
+Tasks:
+Create /sys/kernel/mydriver/.
+Add attributes:
+enable
+status
+buffer_size
+Learn:
+sysfs_create_file()
+##############################################################
+
+Assignment 9: Wait Queue
+Tasks:
+Block the read operation until data is written.
+Wake up the reader after write.
+Learn:
+Wait queues
+wait_event_interruptible()
+wake_up_interruptible()
+##############################################################
+
+Assignment 10: Kernel Thread
+Tasks:
+Create a kernel thread.
+Print the current time every 5 seconds.
+Stop the thread during module unload.
+Learn:
+kthread_run()
+kthread_stop()
+##############################################################
+
+Assignment 11: Workqueue
+Tasks:
+Schedule deferred work after every write operation.
+Print buffer contents asynchronously.
+Learn:
+work_struct
+schedule_work()
+##############################################################
+
+Assignment 12: Timer Driver
+Tasks:
+Create a periodic timer.
+Print a message every 3 seconds.
+Stop the timer on module removal.
+Learn:
+timer_setup()
+mod_timer()
+##############################################################
+
+Assignment 13: Interrupt Handling (Dummy)
+Tasks:
+Register a shared interrupt handler.
+Count interrupt occurrences.
+Print statistics.
+Learn:
+request_irq()
+free_irq()
+##############################################################
+
+Assignment 14: Platform Driver
+Tasks:
+Create a platform driver.
+Implement:
+probe()
+remove()
+Match using Device Tree compatible string.
+Learn:
+Platform devices
+Device Tree basics
+##############################################################
+
+Assignment 15: I²C Driver (Dummy Sensor)
+Tasks:
+Create an I²C client driver.
+Read/write dummy registers.
+Match using Device Tree.
+Learn:
+I²C subsystem
+Register access
+##############################################################
+
+Assignment 16: SPI Driver
+Tasks:
+Register an SPI driver.
+Transfer dummy data using SPI APIs.
+Learn:
+SPI framework
+##############################################################
+
+Assignment 17: GPIO Driver
+Tasks:
+Control an LED using GPIO.
+Read a button status.
+Export GPIO status through sysfs.
+Learn:
+GPIO descriptor APIs
+##############################################################
+
+Assignment 18: Complete Driver
+Develop a complete character driver with:
+Read/Write
+IOCTL
+Poll
+Wait Queue
+Mutex
+Procfs
+Sysfs
+Kernel Thread
+Dynamic Memory
+##############################################################
+
+Assignment 20: Mini Project – Virtual Temperature Sensor
+Features:
+Character device interface
+Random temperature generation
+IOCTL to configure limits
+Procfs statistics
+Sysfs configuration
+Wait queue for threshold events
+User-space monitoring application
+##############################################################
+
+##############################################################
+			End 
+##############################################################

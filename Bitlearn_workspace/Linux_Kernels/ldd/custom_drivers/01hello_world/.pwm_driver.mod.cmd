@@ -1,0 +1,1 @@
+cmd_/home/manohar/linux_ldd/ldd/custom_drivers/01hello_world/pwm_driver.mod := { echo  /home/manohar/linux_ldd/ldd/custom_drivers/01hello_world/pwm_driver.o;  echo; } > /home/manohar/linux_ldd/ldd/custom_drivers/01hello_world/pwm_driver.mod

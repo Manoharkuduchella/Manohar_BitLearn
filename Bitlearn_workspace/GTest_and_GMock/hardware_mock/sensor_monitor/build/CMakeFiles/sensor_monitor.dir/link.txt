@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsensor_monitor.a CMakeFiles/sensor_monitor.dir/src/TemperatureMonitor.cpp.o
+/usr/bin/ranlib libsensor_monitor.a

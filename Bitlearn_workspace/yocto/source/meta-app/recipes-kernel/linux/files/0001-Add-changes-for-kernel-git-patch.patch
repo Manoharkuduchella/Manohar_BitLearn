@@ -1,0 +1,26 @@
+From 7a582714f7339796404e46180037892582f2426a Mon Sep 17 00:00:00 2001
+From: Manohar <manoharkuduchella@gmail.com>
+Date: Mon, 3 Aug 2026 12:55:50 +0000
+Subject: [PATCH] Add changes for kernel git patch
+
+---
+ init/main.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/init/main.c b/init/main.c
+index e363232b428b..773d3bc01d8d 100644
+--- a/init/main.c
++++ b/init/main.c
+@@ -1004,6 +1004,9 @@ void start_kernel(void)
+ 	smp_prepare_boot_cpu();	/* arch-specific boot-cpu hooks */
+ 	early_numa_node_init();
+ 	boot_cpu_hotplug_init();
++	
++	//patch for kernel src for yocto
++	pr_notice("Starting app-image-linux kernel\n");
+ 
+ 	print_kernel_cmdline(saved_command_line);
+ 	/* parameters may set static keys */
+-- 
+2.34.1
+
