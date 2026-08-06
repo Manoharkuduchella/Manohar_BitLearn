@@ -123,23 +123,30 @@ void detectAndRemoveLoop(struct Node* head) {
     struct Node *slow = head, *fast = head;
 
     while (fast && fast->next) {
+        if(slow == fast)
+            break;
         slow = slow->next;
         fast = fast->next->next;
+    }
+    if (slow == fast) {
+        slow = head;
 
-        if (slow == fast) {
-            slow = head;
-            struct Node* prev = NULL;
-
-            while (slow != fast) {
-                prev = fast;
+        if(slow == fast)
+            while(fast->next != slow)
+                fast = fast->next;
+        else {
+            
+            while (slow->next != fast->next) {
+                
                 slow = slow->next;
                 fast = fast->next;
             }
-            prev->next = NULL;
-            printf("Loop detected and removed.\n");
-            return;
         }
+        prev->next = NULL;
+        printf("Loop detected and removed.\n");
+        return;
     }
+ 
     printf("No loop found.\n");
 }
 

@@ -1,3 +1,63 @@
+#open used to open file
+"""
+f = open("log.txt","w+")
+print(f)
+f.write("hello")
+f.close()
+"""
+"""
+f = open("log.txt","r")
+r = f.read()
+print(r)
+"""
+"""
+f = open("log.txt","a")
+i = 0
+while i < 4:
+    if i%2 == 0:
+        f.write("Error\n")
+    else :
+        f.write("Ok\n")
+    i += 1
+ 
+f.close()
+"""
+"""
+f = open("log.txt","r")
+e_cnt = o_cnt = 0
+for l in f:
+    if "Error" in l:
+        e_cnt += 1
+    elif "Ok" in l:
+        o_cnt += 1
+ 
+f.close()
+print(f"erros:{e_cnt} oks:{o_cnt}")
+"""
+"""
+#context manager helps in closing the file object
+e_cnt = o_cnt = 0
+with open("log.txt","r") as file:
+    for line in file:
+        if "Error" in line:
+            e_cnt += 1
+        elif "Ok" in line:
+            o_cnt += 1
+ 
+print(F"erros:{e_cnt} oks:{o_cnt}")
+"""
+"""
+#read binary file
+with open("hello.exe","rb") as bf:
+    print(bf.read())
+"""
+
+"""
+with open("log.txt","r") as f:
+    print()
+"""
+
+
 # try:
 #     with open("log.txt","r") as f:
 #         print(f.read())

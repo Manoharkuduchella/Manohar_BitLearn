@@ -1,0 +1,1000 @@
+2025-03-01 08:00:00,662 INFO: [Database] - Query executed successfully.
+2025-03-01 08:00:02,242 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:00:04,780 INFO: [Startup] - System initialization complete.
+2025-03-01 08:00:06,134 ERROR: [Service] - Service Service started.
+2025-03-01 08:00:04,326 INFO: [Database] - Query executed successfully.
+2025-03-01 08:00:10,880 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:00:12,597 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:00:21,784 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:00:08,567 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:00:09,357 WARNING: [Network] - Ping to server Network succeeded. from 204.189.70.52
+2025-03-01 08:00:10,220 INFO: [Report] - Report generated and saved. from 82.191.39.17
+2025-03-01 08:00:22,229 INFO: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:00:26,443 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:00:14,650 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:00:15,406 WARNING: [Service] - Service Service started. from 102.177.111.62
+2025-03-01 08:00:32,832 DEBUG: [Network] - Ping to server Network succeeded. from 242.74.136.197
+2025-03-01 08:00:34,030 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:00:54,769 DEBUG: [Report] - Report generated and saved. from 42.26.9.209
+2025-03-01 08:00:57,128 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:00:20,516 INFO: [Startup] - System initialization complete.
+2025-03-01 08:00:42,193 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:01:06,467 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:01:09,786 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:01:12,219 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:01:15,495 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:00:26,887 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:00:27,043 ERROR: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:01:27,333 WARNING: [Cleanup] - Temporary files removed. from 4.107.45.224
+2025-03-01 08:00:30,273 ERROR: [Service] - Service Service started.
+2025-03-01 08:01:33,603 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:00:32,125 DEBUG: [Service] - Service Service started.
+2025-03-01 08:00:33,690 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:01:08,030 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:01:10,106 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:01:12,753 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:01:14,124 WARNING: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:01:18,536 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:00:40,558 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:01:22,320 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:01:24,316 DEBUG: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:00:45,638 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:01:32,261 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:01:34,642 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:00:48,206 WARNING: [Database] - Query executed successfully.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:02:33,451 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:02:36,622 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:00:53,038 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:02:42,646 DEBUG: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:02:48,581 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:02:51,866 INFO: [Service] - Service Service started.
+2025-03-01 08:01:56,813 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:00:59,791 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:02:00,858 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:03:03,953 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:02:04,234 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:02:06,847 DEBUG: [Service] - Service Service started.
+2025-03-01 08:02:08,197 INFO: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:01:06,469 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:03:21,723 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:03:24,347 INFO: [Database] - Query executed successfully.
+2025-03-01 08:03:27,350 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:02:20,473 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:02:22,862 ERROR: [Database] - Query executed successfully. from 215.128.26.86
+2025-03-01 08:02:24,460 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:01:13,661 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:02:28,046 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:02:30,962 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:01:16,938 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:01:17,657 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:03:54,716 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:01:19,010 INFO: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:02:42,734 ERROR: [Startup] - System initialization complete. from 161.100.195.236
+2025-03-01 08:04:06,804 ERROR: [Security] - Unusual activity detected. from 141.232.227.189
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:01:25,691 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:02:52,103 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:04:21,427 ERROR: [Monitor] - System performance is nominal. from 194.6.73.91
+2025-03-01 08:01:28,235 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:02:58,447 DEBUG: [Service] - Service Service started.
+2025-03-01 08:01:30,903 DEBUG: [Cleanup] - Temporary files removed. from 133.203.103.147
+2025-03-01 08:03:02,026 DEBUG: [Security] - Unusual activity detected. from 142.211.77.158
+2025-03-01 08:04:36,757 ERROR: [Database] - Query executed successfully.
+Misformatted log line without proper structure.
+2025-03-01 08:04:42,730 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:04:45,064 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:04:48,981 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:01:37,017 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:04:54,098 INFO: [Security] - Unusual activity detected. from 208.199.242.151
+Misformatted log line without proper structure.
+2025-03-01 08:05:00,778 WARNING: [Monitor] - System performance is nominal. from 12.161.146.181
+2025-03-01 08:01:41,558 INFO: [Startup] - System initialization complete.
+2025-03-01 08:01:42,753 INFO: [Network] - Ping to server Network succeeded. from 94.86.66.90
+2025-03-01 08:01:43,874 DEBUG: [Auth] - User 'Auth' logged in. from 121.241.138.211
+2025-03-01 08:05:12,089 INFO: [Database] - Query executed successfully. from 131.49.61.208
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:03:34,769 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:03:36,301 INFO: [Report] - Report generated and saved. from 162.155.67.44
+2025-03-01 08:03:38,989 DEBUG: [Service] - Service Service started. from 238.123.107.96
+2025-03-01 08:01:50,437 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:01:51,095 INFO: [Report] - Report generated and saved.
+2025-03-01 08:05:36,104 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:01:53,393 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:03:48,437 ERROR: [Service] - Service Service started. from 196.226.67.160
+2025-03-01 08:01:55,153 INFO: [Security] - Unusual activity detected. from 243.120.202.210
+2025-03-01 08:05:48,347 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:03:54,143 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:05:54,036 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:01:59,528 DEBUG: [Network] - Ping to server Network succeeded. from 18.111.133.15
+2025-03-01 08:02:00,124 INFO: [Startup] - System initialization complete.
+2025-03-01 08:04:02,766 WARNING: [Database] - Query executed successfully. from 146.214.38.76
+2025-03-01 08:02:02,574 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:02:03,671 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:06:12,596 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:04:10,936 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:04:12,932 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:04:14,216 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:04:16,918 WARNING: [Service] - Service Service started.
+2025-03-01 08:02:09,993 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:02:10,876 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:04:22,884 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:02:12,047 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:06:39,394 DEBUG: [Network] - Ping to server Network succeeded. from 65.35.97.186
+2025-03-01 08:04:28,420 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:04:30,940 INFO: [Startup] - System initialization complete.
+2025-03-01 08:04:32,690 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:06:51,676 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:02:18,263 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:02:19,745 INFO: [Service] - Service Service started. from 44.72.54.107
+2025-03-01 08:04:40,296 ERROR: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:07:06,010 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:02:23,089 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:02:24,043 ERROR: [Auth] - User 'Auth' logged in. from 81.66.218.78
+2025-03-01 08:02:25,138 DEBUG: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:02:28,905 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:07:27,118 ERROR: [Startup] - System initialization complete. from 194.135.241.114
+2025-03-01 08:05:00,344 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:02:31,828 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:07:36,087 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:02:33,537 WARNING: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:05:10,457 INFO: [Startup] - System initialization complete.
+2025-03-01 08:02:36,992 INFO: [Startup] - System initialization complete.
+2025-03-01 08:05:14,237 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:05:16,116 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:07:57,238 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:02:40,217 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:02:41,699 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:02:42,940 INFO: [Service] - Service Service started.
+2025-03-01 08:05:26,068 DEBUG: [Auth] - User 'Auth' logged in. from 210.41.91.234
+2025-03-01 08:02:44,309 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:05:30,803 ERROR: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:05:34,257 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:02:48,981 ERROR: [Service] - Service Service started.
+2025-03-01 08:02:49,599 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:02:50,136 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:08:33,673 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:08:36,482 INFO: [Report] - Report generated and saved.
+2025-03-01 08:08:39,215 INFO: [Service] - Service Service started.
+2025-03-01 08:05:48,903 INFO: [Startup] - System initialization complete. from 236.162.206.53
+Misformatted log line without proper structure.
+2025-03-01 08:08:48,722 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:02:57,341 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:02:58,256 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:08:57,161 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:09:00,771 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:06:02,994 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:09:06,699 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:03:03,796 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:09:12,865 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:09:15,610 INFO: [Service] - Service Service started. from 111.218.36.54
+2025-03-01 08:06:12,034 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:09:21,836 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:03:08,297 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:03:09,311 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:03:10,848 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:06:22,799 DEBUG: [Service] - Service Service started. from 205.183.46.165
+2025-03-01 08:09:36,473 INFO: [Report] - Report generated and saved.
+2025-03-01 08:09:39,856 INFO: [Cleanup] - Temporary files removed. from 193.22.220.61
+2025-03-01 08:06:28,343 ERROR: [Report] - Report generated and saved. from 167.62.17.238
+2025-03-01 08:09:45,846 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:03:16,831 ERROR: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:03:18,795 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:03:19,049 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:03:20,054 ERROR: [Cleanup] - Temporary files removed. from 28.39.39.84
+2025-03-01 08:06:42,158 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:03:22,944 INFO: [Service] - Service Service started.
+2025-03-01 08:06:46,385 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:03:24,557 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:10:15,271 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:06:52,408 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:06:54,016 DEBUG: [Database] - Query executed successfully. from 123.104.104.243
+2025-03-01 08:03:28,524 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:03:29,486 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:07:00,432 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:07:02,886 DEBUG: [Service] - Service Service started. from 111.69.204.146
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:03:34,119 INFO: [Startup] - System initialization complete.
+2025-03-01 08:07:10,939 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:07:12,847 ERROR: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:07:16,168 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:03:39,567 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:03:40,836 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:07:22,152 WARNING: [Database] - Query executed successfully. from 10.78.52.35
+2025-03-01 08:07:24,058 DEBUG: [Database] - Query executed successfully. from 114.96.172.119
+2025-03-01 08:03:43,017 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:11:12,559 ERROR: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:07:32,531 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:07:34,931 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:07:36,398 ERROR: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:03:50,959 DEBUG: [Service] - Service Service started.
+2025-03-01 08:07:42,803 DEBUG: [Service] - Service Service started.
+2025-03-01 08:03:52,602 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:11:39,800 WARNING: [Network] - Ping to server Network succeeded. from 236.45.196.225
+2025-03-01 08:03:54,681 WARNING: [Auth] - User 'Auth' logged in. from 150.24.234.202
+2025-03-01 08:11:45,448 INFO: [Report] - Report generated and saved.
+2025-03-01 08:07:52,990 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:03:57,401 INFO: [Service] - Service Service started.
+2025-03-01 08:03:58,596 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:11:57,601 ERROR: [Service] - Service Service started.
+2025-03-01 08:12:00,353 INFO: [Database] - Query executed successfully.
+2025-03-01 08:04:01,275 DEBUG: [Startup] - System initialization complete. from 224.149.226.210
+2025-03-01 08:08:04,432 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:04:03,595 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:04:04,836 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:04:05,400 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:08:12,248 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:12:21,796 INFO: [Startup] - System initialization complete.
+2025-03-01 08:04:08,205 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:12:27,856 WARNING: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:08:22,995 ERROR: [Service] - Service Service started.
+2025-03-01 08:08:24,917 WARNING: [Report] - Report generated and saved. from 100.101.67.133
+2025-03-01 08:04:13,000 DEBUG: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:12:45,137 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:04:16,757 WARNING: [Service] - Service Service started.
+2025-03-01 08:04:17,429 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:04:18,332 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:12:57,552 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:13:00,943 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:08:42,793 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:08:44,385 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:08:46,195 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:13:12,934 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:04:25,428 INFO: [Service] - Service Service started.
+2025-03-01 08:04:26,807 INFO: [Network] - Ping to server Network succeeded. from 237.123.227.135
+2025-03-01 08:04:27,349 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:13:24,029 INFO: [Startup] - System initialization complete.
+2025-03-01 08:13:27,567 DEBUG: [Auth] - User 'Auth' logged in. from 206.227.36.7
+2025-03-01 08:09:00,316 WARNING: [Report] - Report generated and saved. from 62.217.32.140
+2025-03-01 08:13:33,304 WARNING: [Startup] - System initialization complete. from 9.103.64.236
+2025-03-01 08:09:04,310 INFO: [Database] - Query executed successfully. from 158.141.180.179
+2025-03-01 08:04:33,017 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:09:08,294 ERROR: [Service] - Service Service started. from 162.205.73.129
+2025-03-01 08:04:35,019 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:09:12,754 ERROR: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:04:38,534 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:13:57,285 INFO: [Report] - Report generated and saved.
+2025-03-01 08:09:20,094 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:04:41,875 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:09:24,309 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:04:43,925 ERROR: [Cleanup] - Temporary files removed. from 118.115.188.29
+2025-03-01 08:09:28,881 DEBUG: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:09:32,645 ERROR: [Cleanup] - Temporary files removed. from 242.71.253.99
+Misformatted log line without proper structure.
+2025-03-01 08:14:24,193 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:09:38,303 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:14:30,450 WARNING: [Service] - Service Service started.
+2025-03-01 08:04:51,760 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:09:44,532 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:14:39,490 INFO: [Security] - Unusual activity detected. from 145.102.215.27
+2025-03-01 08:09:48,698 DEBUG: [Service] - Service Service started. from 25.21.127.130
+2025-03-01 08:14:45,086 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:09:52,731 WARNING: [Service] - Service Service started.
+2025-03-01 08:04:57,540 DEBUG: [Service] - Service Service started.
+2025-03-01 08:09:56,473 WARNING: [Cleanup] - Temporary files removed. from 80.112.199.98
+2025-03-01 08:04:59,499 WARNING: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:10:02,674 DEBUG: [Service] - Service Service started.
+2025-03-01 08:10:04,971 ERROR: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:05:05,804 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:15:18,919 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:10:14,197 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:15:24,316 ERROR: [Report] - Report generated and saved. from 122.222.147.255
+2025-03-01 08:05:09,840 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:15:30,517 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:15:33,941 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:05:12,008 WARNING: [Startup] - System initialization complete. from 102.97.178.138
+2025-03-01 08:15:39,533 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:05:14,372 INFO: [Service] - Service Service started.
+2025-03-01 08:05:15,501 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:10:32,920 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:10:34,551 WARNING: [Cleanup] - Temporary files removed. from 56.201.29.211
+2025-03-01 08:15:54,484 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:05:19,329 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:05:20,653 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:05:21,006 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:10:44,048 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:16:09,900 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:05:24,138 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:16:15,475 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:05:26,030 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:10:54,982 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:16:24,198 WARNING: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:11:00,439 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:16:33,801 ERROR: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:11:06,502 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:16:42,857 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:05:35,715 DEBUG: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+2025-03-01 08:05:37,589 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:05:38,113 WARNING: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:05:40,259 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:11:22,853 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:05:42,674 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:17:09,434 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:17:12,202 WARNING: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:05:46,275 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:11:34,146 WARNING: [Cleanup] - Temporary files removed. from 160.143.161.140
+2025-03-01 08:11:36,121 ERROR: [Security] - Unusual activity detected. from 74.172.69.207
+2025-03-01 08:05:49,790 INFO: [Startup] - System initialization complete.
+2025-03-01 08:05:50,684 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:05:51,403 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:05:52,423 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:17:39,641 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:11:48,446 INFO: [Database] - Query executed successfully.
+2025-03-01 08:11:50,669 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:05:56,775 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:17:51,938 INFO: [Report] - Report generated and saved.
+2025-03-01 08:17:54,625 ERROR: [Database] - Query executed successfully. from 87.167.63.193
+2025-03-01 08:05:59,265 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:12:00,747 INFO: [Monitor] - System performance is nominal. from 145.130.143.181
+2025-03-01 08:18:03,364 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:18:06,436 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:12:06,750 INFO: [Cleanup] - Temporary files removed. from 26.131.184.180
+2025-03-01 08:18:12,170 WARNING: [Cleanup] - Temporary files removed. from 222.140.10.101
+2025-03-01 08:06:05,589 ERROR: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:18:21,270 ERROR: [Startup] - System initialization complete. from 60.148.156.82
+2025-03-01 08:18:24,752 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:18:27,911 INFO: [Database] - Query executed successfully. from 187.86.37.252
+2025-03-01 08:12:20,659 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:12:22,140 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:18:36,046 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:12:26,572 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:06:14,628 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:18:45,033 ERROR: [Startup] - System initialization complete. from 208.172.50.31
+2025-03-01 08:18:48,109 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:18:51,699 WARNING: [Monitor] - System performance is nominal. from 114.3.162.114
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:06:21,069 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:06:22,666 ERROR: [Security] - Unusual activity detected. from 204.57.33.223
+2025-03-01 08:19:09,092 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:19:12,516 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:06:25,909 ERROR: [Auth] - User 'Auth' logged in. from 216.185.196.20
+2025-03-01 08:12:52,096 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:19:21,229 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:19:24,954 ERROR: [Security] - Unusual activity detected. from 147.77.74.129
+2025-03-01 08:06:29,583 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:13:00,810 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:13:02,372 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:19:36,039 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:19:39,089 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:13:08,259 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:19:45,714 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:13:12,511 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:06:37,823 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:19:54,024 ERROR: [Database] - Query executed successfully. from 121.233.37.73
+2025-03-01 08:06:39,667 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:13:20,397 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:06:41,141 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:20:06,261 ERROR: [Cleanup] - Temporary files removed. from 64.137.22.89
+2025-03-01 08:13:26,921 ERROR: [Cleanup] - Temporary files removed. from 136.67.142.129
+2025-03-01 08:20:12,490 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:06:45,135 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:13:32,537 DEBUG: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:06:48,531 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:20:27,802 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:06:50,532 INFO: [Service] - Service Service started. from 41.65.101.246
+2025-03-01 08:13:42,865 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:20:36,074 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:20:39,655 INFO: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:20:45,617 INFO: [Security] - Unusual activity detected. from 176.217.127.5
+2025-03-01 08:13:52,612 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:13:54,431 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:06:58,544 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:13:58,663 WARNING: [Service] - Service Service started.
+2025-03-01 08:14:00,073 INFO: [Cleanup] - Temporary files removed. from 228.247.211.27
+2025-03-01 08:14:02,397 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:14:04,530 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:21:09,910 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:07:04,021 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:21:15,462 INFO: [Service] - Service Service started.
+2025-03-01 08:14:12,481 ERROR: [Monitor] - System performance is nominal. from 216.51.23.20
+2025-03-01 08:21:21,917 WARNING: [Service] - Service Service started.
+2025-03-01 08:14:16,460 WARNING: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:14:20,670 WARNING: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+2025-03-01 08:14:24,568 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:14:26,928 DEBUG: [Cleanup] - Temporary files removed. from 142.95.131.224
+2025-03-01 08:14:28,826 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:07:15,434 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:21:48,378 WARNING: [Monitor] - System performance is nominal. from 135.32.26.66
+2025-03-01 08:14:34,259 INFO: [Security] - Unusual activity detected. from 189.253.36.22
+Misformatted log line without proper structure.
+2025-03-01 08:07:19,177 ERROR: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:14:42,759 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:22:06,022 INFO: [Report] - Report generated and saved.
+2025-03-01 08:22:09,944 INFO: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:14:50,360 DEBUG: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:14:54,452 DEBUG: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:22:27,261 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:22:30,010 INFO: [Startup] - System initialization complete. from 224.12.80.205
+2025-03-01 08:22:33,837 WARNING: [Monitor] - System performance is nominal. from 156.35.133.62
+2025-03-01 08:15:04,458 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:15:06,768 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:07:34,957 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:07:35,913 ERROR: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:15:14,170 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:22:54,834 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:15:18,160 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:15:20,759 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:23:03,727 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:15:24,481 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:23:09,800 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:23:12,990 INFO: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:15:32,036 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:07:47,358 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:07:48,913 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:07:49,479 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:07:50,119 ERROR: [Service] - Service Service started. from 146.99.130.44
+2025-03-01 08:15:42,920 INFO: [Security] - Unusual activity detected. from 161.187.133.78
+2025-03-01 08:07:52,260 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:07:53,396 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:15:48,534 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:23:45,224 ERROR: [Monitor] - System performance is nominal. from 201.138.190.17
+2025-03-01 08:07:56,920 ERROR: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:23:54,900 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:23:57,791 DEBUG: [Service] - Service Service started.
+2025-03-01 08:16:00,639 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:08:01,474 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:16:04,256 INFO: [Network] - Ping to server Network succeeded. from 195.65.213.206
+2025-03-01 08:16:06,586 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:08:04,804 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:24:15,193 INFO: [Startup] - System initialization complete.
+2025-03-01 08:16:12,481 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:24:21,511 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:08:08,768 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:24:27,882 DEBUG: [Service] - Service Service started.
+2025-03-01 08:08:10,328 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:24:33,259 WARNING: [Service] - Service Service started.
+2025-03-01 08:08:12,169 INFO: [Startup] - System initialization complete.
+2025-03-01 08:08:13,772 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:24:42,378 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:16:30,270 INFO: [Cleanup] - Temporary files removed. from 45.223.10.254
+2025-03-01 08:24:48,976 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:24:51,724 INFO: [Database] - Query executed successfully. from 87.146.137.13
+2025-03-01 08:08:18,687 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:16:38,659 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:16:40,473 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:25:03,305 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:08:22,087 WARNING: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+2025-03-01 08:25:12,910 INFO: [Monitor] - System performance is nominal. from 222.128.89.123
+2025-03-01 08:25:15,404 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:08:26,683 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:16:54,109 DEBUG: [Startup] - System initialization complete. from 60.73.167.182
+2025-03-01 08:25:24,908 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:16:58,760 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:17:00,322 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:17:02,792 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:25:36,342 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:25:39,102 ERROR: [Report] - Report generated and saved. from 76.41.32.75
+2025-03-01 08:25:42,331 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:25:45,044 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:08:36,773 INFO: [Database] - Query executed successfully.
+2025-03-01 08:08:37,449 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:25:54,444 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:08:39,638 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:26:00,172 INFO: [Database] - Query executed successfully.
+2025-03-01 08:17:22,110 ERROR: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:17:28,433 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:17:30,728 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:26:18,928 ERROR: [Monitor] - System performance is nominal. from 244.48.10.135
+2025-03-01 08:08:47,478 INFO: [Cleanup] - Temporary files removed. from 17.167.49.144
+2025-03-01 08:17:36,812 ERROR: [Service] - Service Service started.
+2025-03-01 08:17:38,625 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:08:50,901 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:26:33,166 WARNING: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:17:46,361 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:08:54,490 ERROR: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:17:52,811 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:08:57,215 INFO: [Cleanup] - Temporary files removed. from 136.217.127.142
+2025-03-01 08:17:56,212 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:26:57,286 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:27:00,851 WARNING: [Report] - Report generated and saved. from 134.141.194.218
+2025-03-01 08:27:03,011 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:18:04,839 INFO: [Service] - Service Service started. from 107.3.192.17
+2025-03-01 08:09:03,178 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:09:04,677 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:27:15,967 DEBUG: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:27:24,563 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:09:09,082 INFO: [Database] - Query executed successfully.
+2025-03-01 08:27:30,818 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:27:33,568 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:18:24,323 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:27:39,998 INFO: [Cleanup] - Temporary files removed. from 36.4.120.199
+2025-03-01 08:09:14,369 ERROR: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:09:16,020 WARNING: [Service] - Service Service started.
+2025-03-01 08:27:51,124 ERROR: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:09:19,322 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:28:00,887 ERROR: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:09:22,931 WARNING: [Startup] - System initialization complete. from 162.63.232.205
+2025-03-01 08:18:46,255 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:09:24,662 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:28:15,971 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:28:18,912 INFO: [Report] - Report generated and saved.
+2025-03-01 08:18:54,317 WARNING: [Service] - Service Service started.
+2025-03-01 08:18:56,606 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:18:58,927 ERROR: [Network] - Ping to server Network succeeded. from 98.117.197.132
+2025-03-01 08:19:00,317 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:28:33,866 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:28:36,354 DEBUG: [Service] - Service Service started. from 174.67.167.90
+2025-03-01 08:28:39,710 WARNING: [Service] - Service Service started.
+2025-03-01 08:28:42,207 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:19:10,895 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:28:48,490 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:09:37,272 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:09:38,999 DEBUG: [Network] - Ping to server Network succeeded. from 179.100.238.164
+2025-03-01 08:28:57,746 INFO: [Report] - Report generated and saved. from 249.46.139.93
+2025-03-01 08:29:00,254 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:19:22,160 ERROR: [Service] - Service Service started.
+2025-03-01 08:29:06,320 INFO: [Auth] - User 'Auth' logged in. from 146.175.100.239
+2025-03-01 08:29:09,753 WARNING: [Service] - Service Service started.
+2025-03-01 08:09:44,284 INFO: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:29:21,486 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:29:24,853 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:19:38,883 DEBUG: [Service] - Service Service started.
+2025-03-01 08:29:30,884 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:29:33,413 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:09:52,197 DEBUG: [Monitor] - System performance is nominal. from 54.27.195.183
+2025-03-01 08:09:53,645 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:19:48,021 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:09:55,719 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:29:48,906 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:29:51,383 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:09:58,170 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:19:58,559 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:20:00,974 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:10:01,713 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:20:04,553 DEBUG: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:20:08,658 INFO: [Database] - Query executed successfully.
+2025-03-01 08:20:10,598 ERROR: [Service] - Service Service started.
+2025-03-01 08:30:18,898 ERROR: [Cleanup] - Temporary files removed. from 146.146.159.227
+2025-03-01 08:20:14,131 WARNING: [Startup] - System initialization complete. from 158.131.233.90
+2025-03-01 08:20:16,341 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:30:27,647 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:30:30,929 ERROR: [Security] - Unusual activity detected. from 15.199.108.114
+Misformatted log line without proper structure.
+2025-03-01 08:20:24,461 ERROR: [Auth] - User 'Auth' logged in. from 57.202.131.81
+2025-03-01 08:20:26,215 INFO: [Service] - Service Service started. from 5.232.119.81
+Misformatted log line without proper structure.
+2025-03-01 08:30:45,164 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:30:48,036 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:30:51,468 ERROR: [Service] - Service Service started.
+2025-03-01 08:30:54,293 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:20:38,874 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:20:40,331 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:10:21,991 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:10:22,667 INFO: [Report] - Report generated and saved. from 143.205.123.62
+2025-03-01 08:20:46,696 ERROR: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:10:25,737 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:10:26,850 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:10:27,736 DEBUG: [Cleanup] - Temporary files removed. from 41.244.128.147
+2025-03-01 08:10:28,187 DEBUG: [Service] - Service Service started.
+2025-03-01 08:31:27,330 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:21:00,393 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:21:02,984 DEBUG: [Cleanup] - Temporary files removed. from 17.40.233.84
+2025-03-01 08:31:36,077 WARNING: [Network] - Ping to server Network succeeded. from 156.220.168.231
+Misformatted log line without proper structure.
+2025-03-01 08:31:42,163 WARNING: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:31:48,709 ERROR: [Database] - Query executed successfully. from 97.65.166.59
+2025-03-01 08:10:37,516 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:10:38,450 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:21:18,191 INFO: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:21:24,729 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:10:43,946 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:21:28,897 INFO: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:32:18,087 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:21:34,792 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:10:48,332 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:21:38,412 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:10:50,592 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:10:51,943 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:32:36,481 WARNING: [Service] - Service Service started.
+2025-03-01 08:10:53,833 INFO: [Database] - Query executed successfully.
+2025-03-01 08:21:48,779 INFO: [Report] - Report generated and saved. from 127.44.226.206
+2025-03-01 08:21:50,663 INFO: [Startup] - System initialization complete.
+2025-03-01 08:21:52,828 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:21:54,867 ERROR: [Database] - Query executed successfully. from 147.211.67.48
+2025-03-01 08:21:56,872 ERROR: [Startup] - System initialization complete. from 111.0.200.215
+2025-03-01 08:32:57,531 WARNING: [Service] - Service Service started.
+2025-03-01 08:22:00,637 DEBUG: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:22:04,110 DEBUG: [Auth] - User 'Auth' logged in. from 176.151.111.66
+2025-03-01 08:11:03,778 INFO: [Network] - Ping to server Network succeeded. from 203.145.249.239
+2025-03-01 08:33:12,301 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:33:15,948 WARNING: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:22:14,960 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:11:08,448 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:11:09,217 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:22:20,855 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:11:11,851 WARNING: [Database] - Query executed successfully. from 204.148.8.127
+2025-03-01 08:11:12,901 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:22:26,082 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:33:42,580 INFO: [Security] - Unusual activity detected. from 241.147.42.32
+Misformatted log line without proper structure.
+2025-03-01 08:22:32,362 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:11:17,867 INFO: [Database] - Query executed successfully.
+2025-03-01 08:22:36,922 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:33:57,348 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:34:00,210 ERROR: [Service] - Service Service started.
+2025-03-01 08:11:21,480 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:11:22,404 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:11:23,967 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:34:12,877 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:34:15,689 ERROR: [Service] - Service Service started.
+2025-03-01 08:11:26,450 INFO: [Cleanup] - Temporary files removed. from 133.255.139.126
+2025-03-01 08:22:54,841 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:11:28,495 INFO: [Report] - Report generated and saved.
+2025-03-01 08:22:58,061 WARNING: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+2025-03-01 08:23:02,495 INFO: [Monitor] - System performance is nominal. from 11.128.10.55
+2025-03-01 08:23:04,923 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:34:39,419 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:11:34,572 ERROR: [Security] - Unusual activity detected. from 196.164.93.60
+2025-03-01 08:23:10,551 WARNING: [Service] - Service Service started. from 48.155.44.162
+Misformatted log line without proper structure.
+2025-03-01 08:23:14,365 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:11:38,905 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:11:39,857 INFO: [Cleanup] - Temporary files removed. from 97.74.13.119
+2025-03-01 08:35:00,639 ERROR: [Security] - Unusual activity detected. from 241.128.111.17
+2025-03-01 08:11:41,039 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:23:24,773 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:23:26,792 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:35:12,805 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:11:45,652 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:23:32,914 DEBUG: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:35:24,540 ERROR: [Auth] - User 'Auth' logged in. from 8.25.80.158
+Misformatted log line without proper structure.
+2025-03-01 08:11:50,699 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:11:51,897 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:35:36,469 ERROR: [Database] - Query executed successfully.
+Misformatted log line without proper structure.
+2025-03-01 08:11:54,337 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:23:50,128 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:35:48,075 ERROR: [Service] - Service Service started.
+2025-03-01 08:35:51,947 ERROR: [Cleanup] - Temporary files removed. from 169.162.159.101
+2025-03-01 08:11:58,411 INFO: [Service] - Service Service started.
+2025-03-01 08:23:58,692 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:12:00,918 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:24:02,277 ERROR: [Cleanup] - Temporary files removed. from 140.195.102.73
+2025-03-01 08:36:06,485 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:24:06,611 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:24:08,113 DEBUG: [Service] - Service Service started.
+2025-03-01 08:24:10,515 DEBUG: [Service] - Service Service started.
+2025-03-01 08:12:06,763 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:12:07,273 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:24:16,078 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:24:18,047 INFO: [Monitor] - System performance is nominal. from 122.253.218.234
+2025-03-01 08:36:30,108 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:12:11,658 DEBUG: [Database] - Query executed successfully. from 135.157.114.105
+2025-03-01 08:24:24,371 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:24:26,401 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:24:28,174 ERROR: [Auth] - User 'Auth' logged in. from 38.106.235.196
+2025-03-01 08:12:15,108 INFO: [Auth] - User 'Auth' logged in. from 201.136.245.44
+2025-03-01 08:36:48,989 ERROR: [Monitor] - System performance is nominal. from 123.51.140.180
+2025-03-01 08:36:51,947 ERROR: [Report] - Report generated and saved. from 159.128.25.60
+2025-03-01 08:24:36,320 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:24:38,138 INFO: [Startup] - System initialization complete.
+2025-03-01 08:24:40,029 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:37:03,350 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:24:44,281 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:12:23,422 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:24:48,165 DEBUG: [Cleanup] - Temporary files removed. from 140.250.65.120
+2025-03-01 08:37:15,716 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:12:26,735 INFO: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:37:24,048 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:24:58,633 WARNING: [Startup] - System initialization complete. from 251.35.80.4
+2025-03-01 08:37:30,553 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:25:02,268 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:25:04,051 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:25:06,243 ERROR: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:37:45,338 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:12:36,004 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:25:14,188 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:25:16,143 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:37:57,616 WARNING: [Auth] - User 'Auth' logged in. from 173.57.116.24
+2025-03-01 08:12:40,934 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:25:22,440 DEBUG: [Database] - Query executed successfully.
+Misformatted log line without proper structure.
+2025-03-01 08:38:09,217 ERROR: [Service] - Service Service started.
+2025-03-01 08:12:44,029 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:38:15,611 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:38:18,992 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:38:21,309 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:25:36,358 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:38:27,855 DEBUG: [Service] - Service Service started.
+2025-03-01 08:38:30,239 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:25:42,627 DEBUG: [Monitor] - System performance is nominal. from 189.12.239.127
+2025-03-01 08:12:52,152 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:38:39,236 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:25:48,744 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:25:50,200 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:38:48,345 DEBUG: [Startup] - System initialization complete. from 45.187.182.252
+2025-03-01 08:25:54,517 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:12:58,660 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:25:58,575 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:13:00,530 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:39:03,101 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:26:04,298 ERROR: [Service] - Service Service started.
+2025-03-01 08:39:09,412 DEBUG: [Service] - Service Service started.
+2025-03-01 08:26:08,575 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:26:10,326 WARNING: [Startup] - System initialization complete. from 227.225.227.187
+2025-03-01 08:26:12,879 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:39:21,941 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:26:16,603 INFO: [Database] - Query executed successfully.
+2025-03-01 08:39:27,634 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:26:20,813 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:13:11,485 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:39:36,322 INFO: [Startup] - System initialization complete.
+2025-03-01 08:13:13,396 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:26:28,682 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:13:15,721 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:39:48,817 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:13:17,217 INFO: [Cleanup] - Temporary files removed. from 204.74.225.80
+2025-03-01 08:13:18,126 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:26:38,688 ERROR: [Service] - Service Service started.
+2025-03-01 08:40:00,532 ERROR: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:13:22,947 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:40:09,140 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:13:24,754 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:40:15,013 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:40:18,493 WARNING: [Service] - Service Service started.
+Misformatted log line without proper structure.
+2025-03-01 08:40:24,514 ERROR: [Service] - Service Service started.
+2025-03-01 08:26:58,088 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:27:00,064 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:40:33,450 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:40:36,825 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:27:06,575 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:40:42,091 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:13:35,777 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:27:12,638 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:27:14,955 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:13:38,325 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:13:39,555 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:13:40,868 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:27:22,242 INFO: [Database] - Query executed successfully.
+2025-03-01 08:41:06,941 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:41:09,468 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:41:12,460 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:13:45,485 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:41:18,933 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:41:21,057 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:13:48,393 WARNING: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:27:40,584 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:13:51,331 INFO: [Service] - Service Service started.
+2025-03-01 08:41:36,489 ERROR: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:27:50,657 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:13:56,578 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:41:51,592 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:41:54,044 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:27:58,083 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:42:00,842 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:28:02,099 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:42:06,628 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:14:03,602 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:28:08,110 DEBUG: [Cleanup] - Temporary files removed.
+2025-03-01 08:42:15,931 WARNING: [Startup] - System initialization complete. from 89.63.64.127
+2025-03-01 08:42:18,676 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:42:21,325 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:28:16,856 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:42:27,031 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:42:30,049 DEBUG: [Monitor] - System performance is nominal.
+2025-03-01 08:42:33,803 INFO: [Database] - Query executed successfully.
+2025-03-01 08:28:24,356 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:14:13,480 WARNING: [Database] - Query executed successfully. from 3.237.108.45
+2025-03-01 08:14:14,410 INFO: [Service] - Service Service started.
+2025-03-01 08:42:45,241 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:42:48,416 DEBUG: [Report] - Report generated and saved. from 90.38.6.151
+2025-03-01 08:42:51,706 INFO: [Database] - Query executed successfully.
+2025-03-01 08:28:36,524 INFO: [Service] - Service Service started.
+2025-03-01 08:14:19,469 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:14:20,686 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:14:21,828 ERROR: [Startup] - System initialization complete. from 161.219.19.162
+2025-03-01 08:43:06,689 DEBUG: [Cleanup] - Temporary files removed. from 136.16.175.27
+2025-03-01 08:43:09,590 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:43:12,644 WARNING: [Service] - Service Service started. from 234.57.88.54
+2025-03-01 08:28:50,093 INFO: [Service] - Service Service started.
+2025-03-01 08:28:52,359 ERROR: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:14:28,856 INFO: [Database] - Query executed successfully. from 188.78.32.166
+2025-03-01 08:14:29,574 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:14:30,196 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:43:33,455 ERROR: [Monitor] - System performance is nominal. from 229.110.251.35
+2025-03-01 08:29:04,924 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:14:33,911 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:43:42,308 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:29:10,833 INFO: [Service] - Service Service started. from 183.151.201.201
+2025-03-01 08:43:48,604 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:14:37,739 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:14:38,810 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:43:57,690 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:44:00,368 DEBUG: [Security] - Unusual activity detected. from 115.74.247.91
+2025-03-01 08:29:22,928 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:44:06,738 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:44:09,966 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:29:28,091 DEBUG: [Auth] - User 'Auth' logged in. from 146.84.107.236
+2025-03-01 08:29:30,822 WARNING: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:29:34,742 WARNING: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:29:38,476 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:14:50,313 INFO: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+2025-03-01 08:14:52,058 INFO: [Cleanup] - Temporary files removed.
+2025-03-01 08:14:53,649 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:14:54,518 INFO: [Service] - Service Service started.
+2025-03-01 08:44:45,110 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:14:56,417 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:29:54,117 INFO: [Report] - Report generated and saved.
+2025-03-01 08:44:54,428 ERROR: [Database] - Query executed successfully. from 218.146.248.20
+2025-03-01 08:44:57,751 INFO: [Security] - Unusual activity detected. from 253.94.250.116
+2025-03-01 08:15:00,458 WARNING: [Cleanup] - Temporary files removed. from 133.19.231.236
+2025-03-01 08:15:01,604 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:15:02,347 WARNING: [Security] - Unusual activity detected.
+2025-03-01 08:15:03,799 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:30:08,822 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:15:05,574 INFO: [Auth] - User 'Auth' logged in.
+Misformatted log line without proper structure.
+2025-03-01 08:30:14,244 ERROR: [Security] - Unusual activity detected. from 248.82.117.238
+2025-03-01 08:30:16,756 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:15:09,682 ERROR: [Report] - Report generated and saved.
+2025-03-01 08:15:10,005 DEBUG: [Network] - Ping to server Network succeeded.
+2025-03-01 08:15:11,471 INFO: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:45:39,770 WARNING: [Auth] - User 'Auth' logged in.
+2025-03-01 08:30:28,404 WARNING: [Service] - Service Service started.
+2025-03-01 08:15:15,030 INFO: [Auth] - User 'Auth' logged in. from 63.44.37.183
+2025-03-01 08:30:32,708 INFO: [Startup] - System initialization complete. from 29.244.254.67
+2025-03-01 08:45:51,385 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:30:36,907 INFO: [Auth] - User 'Auth' logged in. from 184.211.90.158
+2025-03-01 08:30:38,720 WARNING: [Monitor] - System performance is nominal.
+2025-03-01 08:15:20,823 DEBUG: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:15:22,819 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:46:09,150 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:30:48,894 DEBUG: [Startup] - System initialization complete.
+Misformatted log line without proper structure.
+2025-03-01 08:15:26,358 INFO: [Report] - Report generated and saved.
+Misformatted log line without proper structure.
+2025-03-01 08:46:24,091 DEBUG: [Startup] - System initialization complete.
+2025-03-01 08:46:27,608 DEBUG: [Report] - Report generated and saved. from 137.239.169.245
+2025-03-01 08:31:00,859 INFO: [Report] - Report generated and saved.
+2025-03-01 08:46:33,568 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:46:36,251 INFO: [Network] - Ping to server Network succeeded. from 237.138.170.91
+2025-03-01 08:15:33,462 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:31:08,367 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:31:10,843 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:31:12,691 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:15:37,305 ERROR: [Service] - Service Service started. from 246.158.8.143
+2025-03-01 08:31:16,921 ERROR: [Startup] - System initialization complete.
+2025-03-01 08:31:18,896 WARNING: [Database] - Query executed successfully.
+2025-03-01 08:31:20,399 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:15:41,103 INFO: [Auth] - User 'Auth' logged in.
+2025-03-01 08:47:06,963 ERROR: [Report] - Report generated and saved. from 105.70.124.115
+Misformatted log line without proper structure.
+2025-03-01 08:31:28,709 DEBUG: [Database] - Query executed successfully.
+2025-03-01 08:15:45,475 INFO: [Report] - Report generated and saved.
+2025-03-01 08:31:32,187 ERROR: [Network] - Ping to server Network succeeded.
+2025-03-01 08:31:34,635 DEBUG: [Report] - Report generated and saved. from 141.215.32.81
+2025-03-01 08:15:48,322 ERROR: [Auth] - User 'Auth' logged in.
+2025-03-01 08:31:38,279 DEBUG: [Auth] - User 'Auth' logged in. from 92.191.36.91
+2025-03-01 08:47:30,789 WARNING: [Report] - Report generated and saved.
+2025-03-01 08:15:51,700 ERROR: [Cleanup] - Temporary files removed.
+2025-03-01 08:31:44,470 INFO: [Report] - Report generated and saved.
+2025-03-01 08:31:46,285 INFO: [Report] - Report generated and saved.
+2025-03-01 08:31:48,729 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:31:50,718 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:47:48,130 INFO: [Monitor] - System performance is nominal.
+2025-03-01 08:15:57,102 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:15:58,007 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:31:58,536 INFO: [Service] - Service Service started.
+2025-03-01 08:16:00,334 DEBUG: [Service] - Service Service started.
+2025-03-01 08:32:02,007 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:16:02,943 ERROR: [Database] - Query executed successfully.
+2025-03-01 08:32:06,171 ERROR: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:48:15,424 WARNING: [Service] - Service Service started. from 99.153.186.54
+Misformatted log line without proper structure.
+2025-03-01 08:32:14,411 DEBUG: [Auth] - User 'Auth' logged in.
+2025-03-01 08:48:24,085 INFO: [Network] - Ping to server Network succeeded.
+2025-03-01 08:32:18,966 INFO: [Security] - Unusual activity detected.
+2025-03-01 08:16:10,484 WARNING: [Network] - Ping to server Network succeeded.
+2025-03-01 08:48:33,301 INFO: [Cleanup] - Temporary files removed.
+Misformatted log line without proper structure.
+Misformatted log line without proper structure.
+2025-03-01 08:48:42,413 ERROR: [Monitor] - System performance is nominal.
+2025-03-01 08:32:30,990 WARNING: [Startup] - System initialization complete.
+2025-03-01 08:48:48,286 INFO: [Network] - Ping to server Network succeeded. from 80.90.204.181
+2025-03-01 08:48:51,765 WARNING: [Cleanup] - Temporary files removed.
+2025-03-01 08:16:18,049 DEBUG: [Network] - Ping to server Network succeeded.
+Misformatted log line without proper structure.
+2025-03-01 08:49:00,294 ERROR: [Cleanup] - Temporary files removed. from 12.126.3.100
+2025-03-01 08:32:42,820 INFO: [Database] - Query executed successfully.
+2025-03-01 08:49:06,560 INFO: [Service] - Service Service started.
+2025-03-01 08:16:23,580 INFO: [Report] - Report generated and saved.
+2025-03-01 08:32:48,317 ERROR: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:16:26,856 DEBUG: [Report] - Report generated and saved.
+2025-03-01 08:16:27,213 WARNING: [Service] - Service Service started.
+2025-03-01 08:32:56,015 DEBUG: [Service] - Service Service started.
+2025-03-01 08:16:29,857 WARNING: [Monitor] - System performance is nominal.
+Misformatted log line without proper structure.
+2025-03-01 08:49:33,662 DEBUG: [Cleanup] - Temporary files removed. from 108.80.226.40
+2025-03-01 08:16:32,539 INFO: [Database] - Query executed successfully.
+Misformatted log line without proper structure.
+2025-03-01 08:49:42,355 DEBUG: [Security] - Unusual activity detected.
+2025-03-01 08:49:45,773 ERROR: [Security] - Unusual activity detected.
+Misformatted log line without proper structure.
+2025-03-01 08:49:51,389 WARNING: [Service] - Service Service started.
+2025-03-01 08:33:16,636 ERROR: [Security] - Unusual activity detected.
+2025-03-01 08:16:39,358 ERROR: [Service] - Service Service started.

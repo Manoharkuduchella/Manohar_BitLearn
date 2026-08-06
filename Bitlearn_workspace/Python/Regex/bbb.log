@@ -1,0 +1,3 @@
+[ 12.345678] gpio_driver: probe successful
+[ 13.123456] uart_driver: timeout
+[ 14.999999] spi_driver: transfer failed
