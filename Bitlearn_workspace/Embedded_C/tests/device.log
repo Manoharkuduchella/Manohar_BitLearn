@@ -1,0 +1,7 @@
+[    0.125] Booting Linux Kernel
+[    1.234] INFO: Driver initialized
+[    2.345] ERROR: Failed to initialize SPI device
+[    2.567] WARNING: Retrying SPI communication
+[    3.123] ERROR: Sensor timeout
+[    4.890] INFO: Device Ready
+[    5.678] ERROR: CRC check failed
